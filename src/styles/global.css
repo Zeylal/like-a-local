@@ -123,6 +123,9 @@ h2 span{font-size:1.4rem}
   object-fit:cover;display:block;margin:6px auto 20px}
 .story img.wide{max-height:none;aspect-ratio:4/3;object-fit:cover}
 .story img.small{width:60%;max-width:420px;display:block;margin:6px auto 20px}
+.story img.square{width:70%;max-width:480px;max-height:none;aspect-ratio:1/1;
+  object-fit:cover;display:block;margin:6px auto 20px}
+@media(max-width:640px){.story img.square{width:100%;max-width:380px}}
 .story img.float-right{float:right;width:42%;max-width:300px;height:auto;max-height:none;
   aspect-ratio:3/4;object-fit:cover;margin:6px 0 16px 20px}
 @media(max-width:640px){.story img.float-right{float:none;width:100%;max-width:380px;margin:6px auto 20px}}

@@ -194,7 +194,7 @@ We stopped for lunch at **Miscusi**, where we had fresh pasta.
 
 It's not a traditional old-school Milanese trattoria. It's more casual and modern, but after spending the morning walking around in the August heat, fresh pasta was exactly what we wanted.
 
-![Pasta and wine on the terrace at Miscusi](/Assets/Italy/102-pasta-and-wine-on-balcony.jpg)
+<img class="square" src="/Assets/Italy/102-pasta-and-wine-on-balcony.jpg" alt="Pasta and wine on the terrace at Miscusi">
 
 ### 🍝 Dal Bolognese
 
