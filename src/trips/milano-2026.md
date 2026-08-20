@@ -52,61 +52,127 @@ booking:
         - "One useful thing we learned: you don't need to panic about buying the airport train ticket months in advance. We bought ours shortly before travelling. Digital tickets can be purchased through the app, and the QR code for a train ticket becomes available shortly before the selected departure."
 ---
 
-## Milan felt older than we expected
+## Castello Sforzesco
 
-Our first days were mostly spent wandering through Milan rather than trying to "complete" it.
+We started at **Castello Sforzesco**, one of Milan's most important historic landmarks.
 
-We started at **Castello Sforzesco**, which initially looked like a beautiful old castle to wander through. Then we started learning about the people who actually lived and worked there.
+The castle began as a Visconti fortress in the 14th century and was later transformed by the Sforza family, who made Milan one of the great political and artistic centres of Renaissance Italy.
 
-The Sforza family turned Milan into one of the great Renaissance courts. **Ludovico il Moro** brought artists like Leonardo da Vinci to the city, and the castle became part of this strange concentration of power, art and ambition.
+![Castello Sforzesco](/Assets/Italy/07-couple-in-front-of-castle.jpg)
 
-Inside, we found **Michelangelo's Pietà Rondanini**, the last sculpture he worked on before his death. It was probably one of the most memorable things we saw in Milan. Unlike the perfect marble figures we normally associate with Michelangelo, this one feels unfinished, almost fragile.
+This is also where Leonardo da Vinci comes into the story. Leonardo worked for **Ludovico il Moro** and the Sforza court, and the castle still contains his **Sala delle Asse**, a remarkable decoration covering the walls and ceiling with an enormous illusion of branches and leaves.
 
-It made the history feel less like something in a textbook and more like something that happened to actual people.
+One thing to know before visiting: the Sala delle Asse has been undergoing restoration, so access can change. Check the current opening information before you go.
 
-![Castello Sforzesco](/Assets/Italy/08-couple-in-front-of-castle.jpg)
+For us, the highlight inside the castle was **Michelangelo's Pietà Rondanini**, his final sculpture. He was still working on it when he died in 1564, and unlike his perfectly finished sculptures, this one feels raw and unfinished. You can almost see the artist still trying to find the final form in the marble.
 
----
+The castle also houses collections of paintings, sculptures, armour, decorative arts and musical instruments, so you can easily spend a few hours here if you're interested in history.
 
-## We started noticing the history everywhere
+![Castello Sforzesco](/Assets/Italy/11-woman-looking-at-castle.jpg)
 
-Milan became more interesting once we stopped looking only for the famous things.
-
-We walked into **San Bernardino alle Ossa**, a tiny chapel decorated with human skulls and bones. It's strangely beautiful, and slightly unsettling in the way only a centuries-old European church can be.
-
-A few steps away is **Santo Stefano Maggiore**, whose history goes back more than 1,500 years. Caravaggio was baptized there, and in 1476 the Duke of Milan, Galeazzo Maria Sforza, was assassinated inside the church.
-
-It was one of those moments when Milan suddenly stopped feeling like a modern fashion city and started feeling like a place with an enormous memory.
-
-![Under the stone arches near San Bernardino alle Ossa](/Assets/Italy/16-woman-under-stone-arches.jpg)
+Afterwards, we walked through **Parco Sempione**, the huge park behind the castle, towards the Arco della Pace.
 
 ---
 
-## Then there was Leonardo
+## Following Leonardo through Milan
 
-We visited **Santa Maria delle Grazie**, where Leonardo painted *The Last Supper*.
+We continued our little Leonardo trail to **Santa Maria delle Grazie**, one of Milan's most important Renaissance churches.
 
-We didn't manage to see the painting itself, but standing in the complex still felt significant. Bramante, Leonardo and the Sforza court all intersect here, and suddenly the Renaissance history we'd been learning about at the castle connected together.
+Inside the Dominican convent next to the church is Leonardo da Vinci's **The Last Supper**.
 
-That became one of my favorite things about Milan:
+Leonardo painted it between 1495 and 1498 on the wall of the convent's refectory, depicting the moment when Jesus tells the apostles that one of them will betray him.
 
-**you walk for ten minutes and accidentally walk through another 500 years of history.**
+What makes it particularly special is that the painting is still on the original wall where Leonardo created it more than 500 years ago.
+
+There is one important catch: you can't simply turn up and walk inside. Because the painting is extremely fragile, visits are strictly controlled and reservations are required in advance. If you really want to see it, book before your trip.
+
+Even without a ticket, the complex is worth visiting. The church itself is an important Renaissance landmark, and Bramante's architecture adds another layer to the same artistic world we had already discovered at the Sforza castle.
 
 ---
 
-## And then Milan gave us a giant middle finger
+## Brera: our kind of Milan
 
-Literally.
+From the castle, we wandered towards **Brera**, Milan's artistic quarter.
 
-We found **L.O.V.E.**, Maurizio Cattelan's enormous marble hand in front of the Italian Stock Exchange.
+This was probably one of our favorite areas to simply walk around. Instead of feeling like a sightseeing route, Brera feels like a neighborhood: narrow streets, old buildings, little galleries, cafés, restaurants and people sitting outside.
 
-It's difficult to miss the point.
+We didn't really have a plan. We walked through Via Fiori Chiari, Via Madonnina, Via Formentini and around Piazza del Carmine, stopping whenever something caught our attention.
 
-A gigantic middle finger standing in front of the financial district is Cattelan's deliberately provocative comment on finance, capitalism and institutional power.
+That was actually the kind of Milan we liked most.
 
-It was also one of those moments where we thought:
+Not rushing from monument to monument, but letting the city happen around us.
 
-**only Milan would put something this ridiculous in such a serious historical setting.**
+### 🍝 Lunch at Miscusi
+
+We stopped for lunch at **Miscusi**, where we had fresh pasta.
+
+It's not a traditional old-school Milanese trattoria. It's more casual and modern, but after spending the morning walking around in the August heat, fresh pasta was exactly what we wanted.
+
+And this became a bit of a theme throughout the trip: food was never just something we did between sightseeing. It was part of how we experienced the city.
+
+### 🍹 Aperitivo in old Milan
+
+If there's one Milan tradition we wanted to properly experience, it was aperitivo.
+
+In the old streets around Brera, find a table outside, order a drink and stay for a while.
+
+We tried both an Aperol Spritz and a Campari Spritz.
+
+The Aperol is sweeter and easier. The Campari is more bitter and, personally, feels much more like the drink I'd associate with Milan.
+
+For a more atmospheric evening, places like **N'Ombra de Vin**, inside a former 16th-century refectory, are worth looking at. It's the kind of place where the setting becomes part of the experience rather than just somewhere to grab a drink.
+
+Our advice: don't over-plan aperitivo. Walk around Brera, find a restaurant or wine bar that feels inviting, sit outside and watch the neighborhood.
+
+---
+
+## Duomo & Galleria
+
+Eventually, we made our way to the part of Milan that is impossible to avoid.
+
+The Duomo.
+
+It's enormous, dramatic and completely worth seeing in person. The Gothic cathedral took centuries to build, and its hundreds of spires and statues make it one of those places that photographs don't really prepare you for.
+
+Right beside it is the **Galleria Vittorio Emanuele II**, one of the world's oldest shopping arcades.
+
+The glass roof, enormous central dome and mosaic floor make it feel less like a shopping centre and more like a piece of architecture that happens to contain Prada, cafés and restaurants.
+
+We walked through the Galleria, explored the area around the Duomo and let ourselves be tourists for a little while.
+
+Because while we love finding the less obvious side of a city, sometimes the famous things really are famous for a reason.
+
+---
+
+## 💀 A stranger side of Milan
+
+One of our favorite discoveries was **San Bernardino alle Ossa**, a small chapel near the Duomo whose walls are decorated with human bones and skulls.
+
+The ossuary dates back to the medieval period, when the nearby cemetery became overcrowded. Over the centuries, the bones became part of the chapel's strange but elaborate decoration.
+
+![San Bernardino alle Ossa](/Assets/Italy/17-girl-under-stone-arches.jpg)
+
+Just nearby is **Santo Stefano Maggiore**, a church with more than 1,500 years of history. Caravaggio was baptized here, and the Duke of Milan, Galeazzo Maria Sforza, was assassinated inside the church in 1476.
+
+![Santo Stefano Maggiore](/Assets/Italy/21-girl-under-stone-arches.jpg)
+
+It's one of those places that perfectly represents Milan for us:
+
+beautiful, slightly strange, incredibly old, and hiding its history in plain sight.
+
+---
+
+## 🖕 And then... the giant middle finger
+
+We also found ourselves at **Piazza degli Affari**, directly in front of the Italian Stock Exchange.
+
+Standing there is Maurizio Cattelan's famous sculpture **L.O.V.E.**, usually called *Il Dito*.
+
+It's a gigantic marble hand with the middle finger raised towards the financial district.
+
+The sculpture was created as a deliberately provocative statement about the financial establishment, capitalism and institutional power.
+
+It was also one of those moments where Milan's old and new sides collided perfectly: centuries-old architecture, one of Europe's financial centres, and an enormous marble middle finger sitting in the middle of it all.
 
 ![L.O.V.E. — Il Dito, Piazza degli Affari](/Assets/Italy/15-giant-hand-sculpture-in-piazza.jpg)
 
