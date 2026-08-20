@@ -45,7 +45,6 @@ booking:
         - "We stayed in Porta Venezia, and I would definitely recommend the area."
         - "It's close enough to the historic centre that you can walk to many places, but it doesn't feel like you're sleeping right in the middle of the tourist zone. It's also a lively residential neighborhood, with cafés, restaurants, bars, small shops and plenty of everyday Milanese life happening around you."
         - "For us, it was a nice balance: easy to explore, but still felt like a neighborhood rather than a tourist base."
-        - "So if you're trying to figure out where to stay in Milan: Porta Venezia is our recommendation. Brera and the area right around the Duomo put you closer to the sights but cost more and feel more touristy; Porta Venezia is the sweet spot in between."
     - heading: "Getting from Malpensa Airport to Milan"
       body:
         - "We flew into Milan Malpensa Airport, which is not actually in the city. Depending on which terminal you arrive at, the train to central Milan takes roughly 50–60 minutes. The Malpensa Express runs directly to Milano Centrale, with no need to change trains. A one-way ticket costs €15."
