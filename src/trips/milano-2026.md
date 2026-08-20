@@ -50,12 +50,6 @@ booking:
         - "We flew into Milan Malpensa Airport, which is not actually in the city. Depending on which terminal you arrive at, the train to central Milan takes roughly 50–60 minutes. The Malpensa Express runs directly to Milano Centrale, with no need to change trains. A one-way ticket costs €15."
         - "We used the Trenord app to buy our tickets rather than waiting at the airport ticket machines. The app lets you check the timetable, buy the ticket on your phone and keep it in the app, which meant we could simply arrive, find our train and go."
         - "One useful thing we learned: you don't need to panic about buying the airport train ticket months in advance. We bought ours shortly before travelling. Digital tickets can be purchased through the app, and the QR code for a train ticket becomes available shortly before the selected departure."
-        - "So our arrival was basically: Malpensa → Malpensa Express → Milano Centrale → metro/taxi → Porta Venezia → apartment."
-        - "No airport transfer, no complicated reservation, and no standing in a queue while carrying luggage and questioning every life decision."
-    - heading: "Our little tip"
-      body:
-        - "If you're staying in Milan for a few days, download Trenord before you arrive. It's useful not only for Malpensa, but also for trips around Lombardy. We used it later for our Lake Como day as well."
-        - "And for this trip, Milano Centrale became our starting point for exploring beyond Milan, while Porta Venezia was our home base for coming back to the city."
 ---
 
 ## Milan felt older than we expected
