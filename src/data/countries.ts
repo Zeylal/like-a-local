@@ -296,4 +296,18 @@ export const countries: Record<string, CountryInfo> = {
     ],
     cities: ['Kraków', 'Warsaw'],
   },
+  DEU: {
+    code: 'DEU',
+    name: 'Germany',
+    emoji: '🇩🇪',
+    tags: ['Cities', 'Culture', 'Germany'],
+    travelTimeFromFrance: 'Paris → Munich, about 1h35 direct; Berlin is closer to 1h45.',
+    visa: 'None needed. Germany is in the Schengen Area — passport or ID card is enough.',
+    whenToGo: 'May–September for beer gardens and long daylight; late November–December for Christmas markets.',
+    intro: [
+      "Germany is another no-visa, short-flight neighbour — the kind of trip that's easy to keep putting off precisely because it's always available.",
+      "Munich and Berlin barely feel like the same country: one is Bavarian tradition and beer halls, the other is a city still visibly shaped by how recently it was divided.",
+    ],
+    cities: ['Munich', 'Berlin'],
+  },
 };

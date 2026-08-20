@@ -33,8 +33,6 @@ const visited = Object.fromEntries(
     <div class="deco-stamp deco-stamp--1" aria-hidden="true">✈<span>PAR AVION</span></div>
     <div class="deco-stamp deco-stamp--2" aria-hidden="true">🌍<span>LOCAL STOP</span></div>
     <span class="kicker">✈ travel like a local</span>
-    <h1>The Local Stop</h1>
-    <p class="tag">Skip the top-10 lists. This is where I keep the little streets, the neighbourhood tables, and the things locals actually do — from every trip I take.</p>
     <div class="washi"></div>
   </header>
 
@@ -50,6 +48,12 @@ const visited = Object.fromEntries(
         <h2>Meet Zeynep <span>👋</span></h2>
         <p>
           I'm a young designer and student with a serious curiosity for the world. I travel to discover more than just famous places: the food people eat, the neighborhoods they call home, the stories behind their cities, and the little everyday moments that make a place feel alive.
+        </p>
+        <p>
+          I'm a huge foodie, a culture nerd, and probably incapable of visiting somewhere without wondering how the locals actually live there. I don't always follow the itinerary, and honestly, some of my favorite travel memories happened when I didn't.
+        </p>
+        <p>
+          This is my travel journal: a collection of places I've been, things I've learned, food I've loved, plans that went completely wrong, and the moments that made me feel like I belonged somewhere, even just for a little while.
         </p>
         <a class="read-more" href="/about/">Read more →</a>
       </div>
@@ -120,7 +124,7 @@ const visited = Object.fromEntries(
       .polygonAltitude(0.01)
       .polygonCapColor((d) => {
         const code = d.properties.ADM0_A3;
-        return visited[code] ? '#6B7A44' : 'rgba(255,255,255,0.25)';
+        return visited[code] ? '#8CAE6B' : 'rgba(255,255,255,0.25)';
       })
       .polygonSideColor(() => 'rgba(46,42,38,0.15)')
       .polygonStrokeColor(() => '#FAF4EA')
