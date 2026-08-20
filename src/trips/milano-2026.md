@@ -5,7 +5,6 @@ teaser: "Castello Sforzesco, a half-finished Michelangelo, a marble middle finge
 dates: "August 2026"
 stamp: "Aug 2026"
 emoji: "🇮🇹"
-collage: ["🗿", "🏞️", "🍇", "🍷", "🍝", "🍨"]
 badge: "A favourite ✧"
 image: "/Assets/Italy/09-couple-in-front-of-castle.jpg"
 heroImage: "/Assets/Italy/12-woman-smiling-by-castle.jpg"
