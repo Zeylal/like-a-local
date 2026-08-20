@@ -230,6 +230,8 @@ So technically, this was also cultural research.
 
 At least that's what we're telling ourselves.
 
+We also visited the **Darsena district**, along the little canal. Honestly, though: just skip this one. There were so many people, and nothing about it felt particularly authentic.
+
 ---
 
 # 🌊 Lake Como
@@ -241,8 +243,6 @@ The boats that get you around the lake are actually public transport, run by Nav
 There are two kinds of boats: fast boats and regular boats. The regular ones make more stops, but in my opinion they're also more scenic, so unless you're short on time, they're worth choosing over the fast ones.
 
 The two most popular stops are Bellagio and Varenna. We skipped Bellagio because we didn't want to deal with the crowds. In Lenno, we mostly swam in the lake, and it was beautiful.
-
-![The beach at Lenno](/Assets/Italy/71-blurry-night-photo.jpg)
 
 ![Lake Como, seen from the water](/Assets/Italy/27-lake-and-mountains-view.jpg)
 
