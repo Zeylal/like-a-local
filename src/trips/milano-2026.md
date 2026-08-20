@@ -291,31 +291,3 @@ We walked around without a plan, followed the streets toward the lake, and watch
 ![Varenna at golden hour](/Assets/Italy/65-woman-under-stone-arch-sunset.jpg)
 
 That ended up being one of my favorite moments of the trip.
-
-Not because Varenna had the biggest attraction.
-
-Because we finally had nowhere we needed to be.
-
----
-
-# 🧭 What we learned
-
-Our original Lake Como plan was much more ambitious.
-
-We wanted to see everything.
-
-Then we realized that **seeing everything isn't necessarily experiencing anything**.
-
-We skipped Bellagio because it was too busy for what we wanted. We didn't force ourselves through every famous villa. We changed plans when places were crowded or closed.
-
-And that became the rhythm of the trip.
-
-**See something interesting.
-Stay if we like it.
-Leave if we don't.
-Eat something.
-Swim.
-Walk around.
-Change the plan.**
-
-It felt much closer to how I actually want to travel.
