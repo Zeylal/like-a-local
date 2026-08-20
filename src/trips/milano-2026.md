@@ -244,7 +244,7 @@ There are two kinds of boats: fast boats and regular boats. The regular ones mak
 
 The two most popular stops are Bellagio and Varenna. We skipped Bellagio because we didn't want to deal with the crowds. In Lenno, we mostly swam in the lake, and it was beautiful.
 
-![Lake Como, seen from the water](/Assets/Italy/39-lake-and-mountain-view.jpg)
+![Our swimming spot in Lenno](/Assets/Italy/71-blurry-night-photo.jpg)
 
 We originally imagined Lake Como as a perfectly organized day of villas, famous towns and beautiful photographs.
 
@@ -260,7 +260,7 @@ And that was exactly what we needed.
 
 ---
 
-## The Star Wars villa... almost
+## Villa del Balbianello
 
 One of the things I really wanted to see was **Villa del Balbianello**, famous for its appearance as Naboo in *Star Wars: Episode II*.
 
