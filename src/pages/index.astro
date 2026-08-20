@@ -1,0 +1,160 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { countries } from '../data/countries';
+
+const trips = (await getCollection('trips')).sort((a, b) => b.data.order - a.data.order);
+
+const tripCountByCountry = {};
+for (const t of trips) {
+  tripCountByCountry[t.data.countryCode] = (tripCountByCountry[t.data.countryCode] ?? 0) + 1;
+}
+
+// Every country with a countries.ts entry lights up on the globe and links
+// to its /countries/<code>/ page — whether or not it has a trip written up.
+const visited = Object.fromEntries(
+  Object.values(countries).map((c) => {
+    const tripCount = tripCountByCountry[c.code] ?? 0;
+    const cityCount = c.cities?.length ?? 0;
+    const parts = [c.name, tripCount > 0 ? `${tripCount} ${tripCount === 1 ? 'trip' : 'trips'}` : 'coming soon'];
+    if (cityCount > 0) parts.push(`${cityCount} ${cityCount === 1 ? 'city' : 'cities'}`);
+    return [
+      c.code,
+      {
+        label: parts.join(' · '),
+        url: `/countries/${c.code}/`,
+      },
+    ];
+  })
+);
+---
+<BaseLayout title="The Local Stop — travel notes by Zeynep" bodyClass="home">
+  <header class="wrap">
+    <div class="deco-stamp deco-stamp--1" aria-hidden="true">✈<span>PAR AVION</span></div>
+    <div class="deco-stamp deco-stamp--2" aria-hidden="true">🌍<span>LOCAL STOP</span></div>
+    <span class="kicker">✈ travel like a local</span>
+    <h1>The Local Stop</h1>
+    <p class="tag">Skip the top-10 lists. This is where I keep the little streets, the neighbourhood tables, and the things locals actually do — from every trip I take.</p>
+    <div class="washi"></div>
+  </header>
+
+  <section>
+    <div class="wrap meet">
+      <div class="polaroid">
+        <div class="tape"></div>
+        <div class="photo">
+          <img src="/Assets/Zeynep.jpg" alt="Zeynep" loading="lazy">
+        </div>
+      </div>
+      <div>
+        <h2>Meet Zeynep <span>👋</span></h2>
+        <p>
+          <em>[Placeholder — swap in your real story: when you started, what got you into this kind of travel, where you're based now, how many countries/continents, whatever numbers you want to lead with.]</em>
+          I skip the top-10 lists for the streets locals actually walk — the neighbourhood bakery over the rooftop bar, the local table over the tourist menu. My goal is to show you the version of a place worth slowing down for.
+        </p>
+        <a class="read-more" href="/about/">Read more →</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap"><h2>The map so far <span>🌍</span></h2></div>
+    <div class="globe-wrap">
+      <div id="globe"></div>
+    </div>
+    <div class="wrap"><p class="map-note">spin the globe, click a lit-up country…</p></div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <span>✎ notes from the road ✦</span><span>✎ notes from the road ✦</span><span>✎ notes from the road ✦</span>
+    <span>✎ notes from the road ✦</span><span>✎ notes from the road ✦</span><span>✎ notes from the road ✦</span>
+    <span>✎ notes from the road ✦</span><span>✎ notes from the road ✦</span>
+  </div>
+
+  <section class="band-trips">
+    <div class="wrap">
+      <h2>Trips <span>📔</span></h2>
+      <div class="cards">
+
+        {trips.map((trip) => (
+          <a class="polaroid" href={`/trips/${trip.id}/`}>
+            <div class="tape"></div>
+            <div class="photo">
+              <img src={trip.data.image} alt={`${trip.data.title} placeholder photo`} loading="lazy">
+              <span class="stamp">{trip.data.stamp}</span>
+            </div>
+            <h3>{trip.data.title}</h3>
+            <p>{trip.data.teaser}</p>
+            <span class="badge">{trip.data.badge}</span>
+          </a>
+        ))}
+
+        <div class="polaroid">
+          <div class="tape"></div>
+          <div class="photo soon">
+            <img src="https://picsum.photos/seed/next-adventure/600/400?grayscale" alt="Placeholder photo for a future trip" loading="lazy">
+            <span class="stamp">soon…</span>
+          </div>
+          <h3>Your next adventure</h3>
+          <p>This polaroid is waiting for the next trip. Where to?</p>
+          <span class="badge">Coming soon</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <span class="hand">à bientôt, quelque part ✧</span>
+    <p style="margin-top:8px;font-size:.85rem">The Local Stop · made with wanderlust by Zeynep</p>
+  </footer>
+
+  <script src="https://unpkg.com/globe.gl@2.46.1/dist/globe.gl.min.js" is:inline></script>
+  <script define:vars={{ visited }}>
+    const el = document.getElementById('globe');
+
+    const world = Globe()(el)
+      .backgroundColor('rgba(0,0,0,0)')
+      .showAtmosphere(true)
+      .atmosphereColor('#5B7FA6')
+      .atmosphereAltitude(0.18)
+      .polygonAltitude(0.01)
+      .polygonCapColor((d) => {
+        const code = d.properties.ADM0_A3;
+        return visited[code] ? '#C4552D' : 'rgba(255,255,255,0.25)';
+      })
+      .polygonSideColor(() => 'rgba(46,42,38,0.15)')
+      .polygonStrokeColor(() => '#FAF4EA')
+      .polygonLabel((d) => {
+        const v = visited[d.properties.ADM0_A3];
+        const text = v ? v.label + ' →' : d.properties.NAME;
+        return `<div style="font-family:'Caveat',cursive;font-size:1.15rem;background:#fff;color:#2E2A26;
+                  padding:5px 12px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.15)">${text}</div>`;
+      })
+      .onPolygonHover((d) => {
+        el.style.cursor = d && visited[d.properties.ADM0_A3] ? 'pointer' : 'grab';
+      })
+      .onPolygonClick((d) => {
+        const v = d && visited[d.properties.ADM0_A3];
+        if (v) window.location.href = v.url;
+      });
+
+    world.globeMaterial().color.set('#5B7FA6');
+    world.globeMaterial().shininess = 2;
+
+    world.controls().autoRotate = true;
+    world.controls().autoRotateSpeed = 0.6;
+    world.controls().enableZoom = false;
+    el.addEventListener('pointerdown', () => (world.controls().autoRotate = false), { once: true });
+
+    const sizeGlobe = () => world.width(el.clientWidth).height(el.clientHeight);
+    window.addEventListener('resize', sizeGlobe);
+    sizeGlobe();
+
+    fetch('https://cdn.jsdelivr.net/gh/vasturiano/globe.gl/example/datasets/ne_110m_admin_0_countries.geojson')
+      .then((res) => res.json())
+      .then((geo) => {
+        world.polygonsData(geo.features.filter((f) => f.properties.ADM0_A3 !== 'ATA'));
+      });
+  </script>
+</BaseLayout>

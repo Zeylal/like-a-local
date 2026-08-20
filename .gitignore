@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+
+# Working copy of photos — the copy actually served by the site is public/Assets/
+/Assets/

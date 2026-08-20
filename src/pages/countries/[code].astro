@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { countries } from '../../data/countries';
+
+export async function getStaticPaths() {
+  return Object.keys(countries).map((code) => ({ params: { code } }));
+}
+
+const { code } = Astro.params;
+const country = countries[code];
+
+const trips = (await getCollection('trips'))
+  .filter((t) => t.data.countryCode === code)
+  .sort((a, b) => b.data.order - a.data.order);
+---
+<BaseLayout title={`Visiting ${country.name} — The Local Stop`} bodyClass="trip">
+  <div class="wrap">
+    <a class="back" href="/">← back to the map</a>
+  </div>
+
+  <header class="wrap">
+    <span class="when">{country.tags.join(', ')}</span>
+    <h1>Visiting {country.name} {country.emoji}</h1>
+    <div class="washi"></div>
+  </header>
+
+  <div class="wrap country-intro">
+    {country.intro.map((p) => <p>{p}</p>)}
+  </div>
+
+  <div class="wrap">
+    <div class="facts">
+      <div class="fact"><div class="k">Visa</div><div class="v">{country.visa}</div></div>
+      <div class="fact"><div class="k">When to go</div><div class="v">{country.whenToGo}</div></div>
+      <div class="fact"><div class="k">From France</div><div class="v">{country.travelTimeFromFrance}</div></div>
+    </div>
+  </div>
+
+  {country.cities && country.cities.length > 0 && (
+    <div class="wrap">
+      <h2>Cities on the radar <span>📍</span></h2>
+      <div class="city-chips">
+        {country.cities.map((city) => <span class="city-chip">{city}</span>)}
+      </div>
+    </div>
+  )}
+
+  <section>
+    <div class="wrap">
+      <h2>Recent entries <span>📔</span></h2>
+      {trips.length > 0 ? (
+        <div class="cards">
+          {trips.map((trip) => (
+            <a class="polaroid" href={`/trips/${trip.id}/`}>
+              <div class="tape"></div>
+              <div class="photo">
+                <img src={trip.data.image} alt={`${trip.data.title} placeholder photo`} loading="lazy">
+                <span class="stamp">{trip.data.stamp}</span>
+              </div>
+              <h3>{trip.data.title}</h3>
+              <p>{trip.data.teaser}</p>
+              <span class="badge">{trip.data.badge}</span>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <p class="no-entries">Nothing written up here yet — {country.name} is on the list. Check back soon ✧</p>
+      )}
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <span class="hand">à bientôt, {country.name} ✧</span>
+    <p style="margin-top:8px;font-size:.85rem"><a href="/" style="color:var(--terra)">← back to the map</a></p>
+  </footer>
+</BaseLayout>

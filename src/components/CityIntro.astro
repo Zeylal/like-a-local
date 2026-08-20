@@ -1,0 +1,52 @@
+---
+interface Hotspot {
+  x: number;
+  y: number;
+  label: string;
+  info: string;
+}
+
+interface Props {
+  about: string[];
+  heroImage: string;
+  hotspots: Hotspot[];
+}
+
+const { about, heroImage, hotspots } = Astro.props;
+---
+<section class="city-intro-section">
+  <div class="wrap">
+    <h2>About the city <span>🏙</span></h2>
+    <div class="city-intro">
+      <div>
+        {about.map((p) => <p set:html={p} />)}
+      </div>
+      <div class="city-intro__hero">
+        <img src={heroImage} alt="" loading="lazy" />
+        {hotspots.map((h) => (
+          <button
+            class="hotspot"
+            style={`left:${h.x}%;top:${h.y}%`}
+            aria-label={h.label}
+          >
+            <span class="hotspot__card"><b>{h.label}</b>{h.info}</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('.hotspot').forEach((hotspot) => {
+    hotspot.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const wasActive = hotspot.classList.contains('is-active');
+      document.querySelectorAll('.hotspot.is-active').forEach((h) => h.classList.remove('is-active'));
+      if (!wasActive) hotspot.classList.add('is-active');
+    });
+  });
+  document.addEventListener('click', () => {
+    document.querySelectorAll('.hotspot.is-active').forEach((h) => h.classList.remove('is-active'));
+  });
+</script>

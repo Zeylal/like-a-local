@@ -1,0 +1,115 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CityIntro from '../../components/CityIntro.astro';
+
+export async function getStaticPaths() {
+  const trips = await getCollection('trips');
+  return trips.map((trip) => ({ params: { slug: trip.id }, props: { trip } }));
+}
+
+const { trip } = Astro.props;
+const { data } = trip;
+const heroImage = data.heroImage ?? data.image;
+---
+<BaseLayout title={`${data.title} — like a local`} bodyClass="trip">
+  <Fragment slot="head">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  </Fragment>
+
+  <div class="wrap">
+    <a class="back" href="/">← back to all trips</a>
+  </div>
+
+  <header class="wrap">
+    <span class="when">{data.dates}</span>
+    <h1>{data.title} {data.emoji}</h1>
+    <p class="sub">{data.subtitle}</p>
+    <div class="washi"></div>
+  </header>
+
+  <CityIntro about={data.about} heroImage={heroImage} hotspots={data.hotspots} />
+
+  <div class="wrap">
+    <div class="facts">
+      {data.facts.map((f) => (
+        <div class="fact"><div class="k">{f.k}</div><div class="v">{f.v}</div></div>
+      ))}
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <h2>Day by day <span>📔</span></h2>
+      {data.dayByDay.map((day) => (
+        <div class="day">
+          <h3>{day.heading}</h3>
+          {day.paragraphs.map((p) => <p set:html={p} />)}
+          {day.images && day.images.length > 0 && (
+            <div class="day-photos">
+              {day.images.map((src) => <img src={src} alt="" loading="lazy">)}
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Local stops — where we ate <span>🍝</span></h2>
+      <div class="food">
+        {data.dishes.map((dish) => (
+          <div class="dish">
+            <span class="emoji">{dish.emoji}</span>
+            <h4>{dish.name}</h4>
+            <p set:html={dish.description} />
+            <span class="price">{dish.price}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>The route <span>🗺</span></h2>
+      <div id="tripmap"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Budget &amp; tips <span>💶</span></h2>
+      <div class="tips">
+        <ul>
+          {data.tips.map((tip) => <li set:html={tip} />)}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <span class="hand">andiamo ✧</span>
+    <p style="margin-top:8px;font-size:.85rem"><a href="/" style="color:var(--terra)">← all trips</a></p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" is:inline></script>
+  <script define:vars={{ coords: data.coords, pins: data.pins }}>
+    const map = L.map('tripmap', { scrollWheelZoom: false }).setView(coords, 8);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 19,
+    }).addTo(map);
+    const pin = (c) =>
+      L.divIcon({
+        className: '',
+        html: `<div style="font-size:24px;transform:translate(-50%,-100%)">${c}</div>`,
+        iconSize: [0, 0],
+      });
+    pins.forEach((p) => {
+      L.marker(p.c, { icon: pin(p.e) })
+        .addTo(map)
+        .bindPopup(`<span style="font-family:Caveat,cursive;font-size:1.15rem">${p.n}</span>`);
+    });
+  </script>
+</BaseLayout>
