@@ -38,7 +38,7 @@ booking:
   title: "Booking the trip"
   intro:
     - "We decided to spend a few days in Milan and Lake Como in August, which turned out to be both a blessing and a slight logistical nightmare."
-    - "August is Italy's big holiday season, so a lot of smaller local businesses, restaurants and shops close for part of the month. On the other hand, Milan itself can feel noticeably quieter, and accommodation can sometimes be cheaper than during the busier months. So if you're okay with checking opening days in advance, August can actually be a pretty good time to visit."
+    - "If you can choose, the actual best time to visit is late spring (May–June) or September — warm enough to swim in Como, cool enough to actually enjoy walking around Milan. August is Italy's big holiday season, so a lot of smaller local businesses, restaurants and shops close for part of the month, though Milan itself does feel quieter and accommodation can be cheaper if you're okay checking opening days in advance."
   items:
     - heading: "Where we stayed"
       body:
