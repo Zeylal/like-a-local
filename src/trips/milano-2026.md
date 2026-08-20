@@ -178,6 +178,52 @@ It was also one of those moments where Milan's old and new sides collided perfec
 
 ---
 
+# What we ate in Milan
+
+If there's one thing that deserves its own section in this trip, it's food. We didn't want to spend every meal chasing famous restaurants. We mostly looked for places that felt casual, local and genuinely good, and a few ended up becoming highlights of the trip.
+
+### 🍝 Tagliatelle alla Bolognese at Maia Bistrot
+
+We had tagliatelle alla Bolognese at **Maia Bistrot**, and it was honestly one of our favorite meals in Milan.
+
+The pasta was fresh, rich and comforting, exactly the kind of dish you want after walking around the city for hours. Nothing overly complicated, just good pasta and a sauce that tasted like someone actually cared about making it.
+
+It was one of those meals where we stopped talking about sightseeing for a while and just concentrated on the plate.
+
+### 🍕 Pizza around Porta Venezia
+
+For pizza, we went to **Denis Milano – Porta Venezia**, and this one was a very easy recommendation.
+
+The pizza was really good, with a light, airy base and fresh toppings. Porta Venezia is also a great area to eat in because there are plenty of restaurants and cafés without having to go all the way into the most touristy parts of the city.
+
+If you're staying around Porta Venezia like we did, this is a convenient place to keep in mind when you want a proper Italian pizza without making dinner into another sightseeing mission.
+
+### 🍦 Gelateria Umberto 1934
+
+Obviously, there had to be gelato.
+
+We stopped at **Gelateria Umberto 1934**, a much more old-school kind of gelateria. The name itself comes from its long history, and it felt like a nice little pause in the middle of exploring the city.
+
+It's the kind of stop that doesn't need an itinerary:
+
+walk → see gelato → stop.
+
+A very important Italian travel rule.
+
+### ☕ And yes... Starbucks
+
+We also went to Starbucks.
+
+Not because we suddenly forgot we were in Italy, but because the **Starbucks Reserve Roastery** in Milan is actually worth seeing as a space.
+
+It's housed in the historic former Poste building in Piazza Cordusio, with huge interiors, elaborate architecture and a much more theatrical atmosphere than an ordinary Starbucks.
+
+So technically, this was also cultural research.
+
+At least that's what we're telling ourselves.
+
+---
+
 # 🍝 Eating Milan
 
 Food became one of the best ways we experienced the city.
