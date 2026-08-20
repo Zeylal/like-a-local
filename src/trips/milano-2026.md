@@ -284,7 +284,7 @@ Lenno had been beautiful but tiny. Varenna had more of what we'd been looking fo
 
 By the time we arrived, many of the day-trippers were leaving.
 
-We sat down for an Aperol Spritz right on the water as the sun went down - mountains on one side, the lake turning gold on the other.
+We sat down for an Aperol Spritz right on the water at **Olivedo Lido** as the sun went down - mountains on one side, the lake turning gold on the other. It's a little expensive, but the cocktails were good and the views were even better. Just don't eat here - it's a spot for drinks, not dinner.
 
 <img class="wide" src="/Assets/Italy/135-aperol-spritz-at-sunset.jpg" alt="Aperitivo by the lake at sunset">
 
