@@ -98,6 +98,8 @@ From the castle, we wandered towards **Brera**, Milan's artistic quarter.
 
 This was probably one of our favorite areas to simply walk around. Instead of feeling like a sightseeing route, Brera feels like a neighborhood: narrow streets, old buildings, little galleries, cafés, restaurants and people sitting outside.
 
+![A quiet street in Brera](/Assets/Italy/136-brera-street.jpg)
+
 We didn't really have a plan. We walked through Via Fiori Chiari, Via Madonnina, Via Formentini and around Piazza del Carmine, stopping whenever something caught our attention.
 
 That was actually the kind of Milan we liked most.
