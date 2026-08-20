@@ -11,11 +11,6 @@ heroImage: "/Assets/Italy/12-woman-smiling-by-castle.jpg"
 order: 100
 countryCode: "ITA"
 coords: [45.75, 9.25]
-facts:
-  - { k: "Slept at", v: "Self-catering apartment, Porta Venezia" }
-  - { k: "Lake Como base", v: "Lenno by day, Varenna by evening" }
-  - { k: "Best bite", v: "Home-made cappellacci ai finferli 🍄" }
-  - { k: "Missed by a day", v: "Villa del Balbianello — closed Mondays 😭" }
 pins:
   - { n: "Milano — home base", c: [45.4642, 9.1900], e: "🏠" }
   - { n: "Lenno, Lake Como", c: [45.9764, 9.2075], e: "🏖️" }
@@ -29,14 +24,6 @@ hotspots:
   - { x: 62, y: 40, label: "Pietà Rondanini", info: "Michelangelo's final, unfinished sculpture — he was still working on it when he died in 1564. Rougher and more intimate than his famous polished works." }
   - { x: 22, y: 68, label: "San Bernardino alle Ossa", info: "A small chapel whose walls are lined with human skulls and bones, dating back to when the neighbouring medieval cemetery ran out of room." }
   - { x: 75, y: 72, label: "L.O.V.E. (\"Il Dito\")", info: "Maurizio Cattelan's giant marble hand giving the Italian Stock Exchange the finger — installed 2010, read as a jab at capitalism and institutional power." }
----
-
-We came to Milan with a fairly ambitious little plan: explore the city, eat good Italian food, escape to Lake Como, swim somewhere beautiful, find small villages, and maybe even see the villa from *Star Wars*.
-
-Naturally, reality had other plans.
-
-And that ended up being the best part.
-
 ---
 
 ## Milan felt older than we expected

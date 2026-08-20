@@ -27,7 +27,7 @@ const trips = defineCollection({
     countryCode: z.string().length(3),
     // this trip's own route-map view center [lat, lng]
     coords: z.tuple([z.number(), z.number()]),
-    facts: z.array(z.object({ k: z.string(), v: z.string() })),
+    facts: z.array(z.object({ k: z.string(), v: z.string() })).optional(),
     pins: z.array(
       z.object({ n: z.string(), c: z.tuple([z.number(), z.number()]), e: z.string() })
     ),

@@ -32,13 +32,15 @@ const heroImage = data.heroImage ?? data.image;
 
   <CityIntro about={data.about} heroImage={heroImage} hotspots={[]} />
 
-  <div class="wrap">
-    <div class="facts">
-      {data.facts.map((f) => (
-        <div class="fact"><div class="k">{f.k}</div><div class="v">{f.v}</div></div>
-      ))}
+  {data.facts && data.facts.length > 0 && (
+    <div class="wrap">
+      <div class="facts">
+        {data.facts.map((f) => (
+          <div class="fact"><div class="k">{f.k}</div><div class="v">{f.v}</div></div>
+        ))}
+      </div>
     </div>
-  </div>
+  )}
 
   {hasStory && (
     <section>
