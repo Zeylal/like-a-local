@@ -58,7 +58,7 @@ We started at **Castello Sforzesco**, one of Milan's most important historic lan
 
 The castle began as a Visconti fortress in the 14th century and was later transformed by the Sforza family, who made Milan one of the great political and artistic centres of Renaissance Italy.
 
-![One of Castello Sforzesco's towers](/Assets/Italy/114-castle-tower-view.jpg)
+![Castello Sforzesco's tower and fountain](/Assets/Italy/11-woman-looking-at-castle.jpg)
 
 This is also where Leonardo da Vinci comes into the story. Leonardo worked for **Ludovico il Moro** and the Sforza court, and the castle still contains his **Sala delle Asse**, a remarkable decoration covering the walls and ceiling with an enormous illusion of branches and leaves.
 
