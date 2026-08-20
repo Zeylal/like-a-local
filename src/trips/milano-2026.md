@@ -66,7 +66,7 @@ One thing to know before visiting: the Sala delle Asse has been undergoing resto
 
 For us, the highlight inside the castle was **Michelangelo's Pietà Rondanini**, his final sculpture. He was still working on it when he died in 1564, and unlike his perfectly finished sculptures, this one feels raw and unfinished. You can almost see the artist still trying to find the final form in the marble.
 
-<img class="wide" src="/Assets/Italy/115-pieta-sculpture-in-museum.jpg" alt="Michelangelo's Pietà Rondanini">
+<img class="float-right" src="/Assets/Italy/115-pieta-sculpture-in-museum.jpg" alt="Michelangelo's Pietà Rondanini">
 
 The castle also houses collections of paintings, sculptures, armour, decorative arts and musical instruments, so you can easily spend a few hours here if you're interested in history.
 

@@ -122,6 +122,9 @@ h2 span{font-size:1.4rem}
 .story img.portrait{width:100%;max-width:380px;height:560px;max-height:70vh;
   object-fit:cover;display:block;margin:6px auto 20px}
 .story img.wide{max-height:none;aspect-ratio:4/3;object-fit:cover}
+.story img.float-right{float:right;width:42%;max-width:300px;height:auto;max-height:none;
+  aspect-ratio:3/4;object-fit:cover;margin:6px 0 16px 20px}
+@media(max-width:640px){.story img.float-right{float:none;width:100%;max-width:380px;margin:6px auto 20px}}
 
 /* trip page: facts chips */
 .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:26px 0 8px}
