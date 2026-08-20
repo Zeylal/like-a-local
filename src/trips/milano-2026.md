@@ -290,8 +290,6 @@ We sat down for an Aperol Spritz right on the water at **Olivedo Lido** as the s
 
 We walked around without a plan, followed the streets toward the lake, and watched the light change over the water.
 
-![Varenna at golden hour](/Assets/Italy/65-woman-under-stone-arch-sunset.jpg)
-
 <img class="portrait" src="/Assets/Italy/139-varenna-archway-view.jpg" alt="Looking out at the lake through a Varenna archway">
 
 <img class="portrait" src="/Assets/Italy/140-varenna-albergo-milano-sunset.jpg" alt="A stairway down to the lake past Albergo Milano at sunset">
