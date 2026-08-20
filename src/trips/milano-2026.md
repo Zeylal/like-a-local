@@ -36,6 +36,42 @@ highlights:
   - { image: "/Assets/Italy/69-sunset-over-the-lake.jpg", caption: "Sunset over the lake" }
 ---
 
+## Booking the trip
+
+We decided to spend a few days in Milan and Lake Como in August, which turned out to be both a blessing and a slight logistical nightmare.
+
+August is Italy's big holiday season, so a lot of smaller local businesses, restaurants and shops close for part of the month. On the other hand, Milan itself can feel noticeably quieter, and accommodation can sometimes be cheaper than during the busier months. So if you're okay with checking opening days in advance, August can actually be a pretty good time to visit.
+
+### Where we stayed
+
+We stayed in Porta Venezia, and I would definitely recommend the area.
+
+It's close enough to the historic centre that you can walk to many places, but it doesn't feel like you're sleeping right in the middle of the tourist zone. It's also a lively residential neighborhood, with cafés, restaurants, bars, small shops and plenty of everyday Milanese life happening around you.
+
+For us, it was a nice balance: easy to explore, but still felt like a neighborhood rather than a tourist base.
+
+### Getting from Malpensa Airport to Milan
+
+We flew into Milan Malpensa Airport, which is not actually in the city. Depending on which terminal you arrive at, the train to central Milan takes roughly 50–60 minutes. The Malpensa Express runs directly to Milano Centrale, with no need to change trains. A one-way ticket costs €15.
+
+We used the Trenord app to buy our tickets rather than waiting at the airport ticket machines. The app lets you check the timetable, buy the ticket on your phone and keep it in the app, which meant we could simply arrive, find our train and go.
+
+One useful thing we learned: you don't need to panic about buying the airport train ticket months in advance. We bought ours shortly before travelling. Digital tickets can be purchased through the app, and the QR code for a train ticket becomes available shortly before the selected departure.
+
+So our arrival was basically:
+
+Malpensa → Malpensa Express → Milano Centrale → metro/taxi → Porta Venezia → apartment
+
+No airport transfer, no complicated reservation, and no standing in a queue while carrying luggage and questioning every life decision.
+
+### Our little tip
+
+If you're staying in Milan for a few days, download Trenord before you arrive. It's useful not only for Malpensa, but also for trips around Lombardy. We used it later for our Lake Como day as well.
+
+And for this trip, Milano Centrale became our starting point for exploring beyond Milan, while Porta Venezia was our home base for coming back to the city.
+
+---
+
 ## Milan felt older than we expected
 
 Our first days were mostly spent wandering through Milan rather than trying to "complete" it.
