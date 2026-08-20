@@ -150,6 +150,8 @@ One of our favorite discoveries was **San Bernardino alle Ossa**, a small chapel
 
 The ossuary dates back to the medieval period, when the nearby cemetery became overcrowded. Over the centuries, the bones became part of the chapel's strange but elaborate decoration.
 
+![San Bernardino alle Ossa](/Assets/Italy/138-san-bernardino-alle-ossa.jpg)
+
 Just nearby is **Santo Stefano Maggiore**, a church with more than 1,500 years of history. Caravaggio was baptized here, and the Duke of Milan, Galeazzo Maria Sforza, was assassinated inside the church in 1476.
 
 It's one of those places that perfectly represents Milan for us:
