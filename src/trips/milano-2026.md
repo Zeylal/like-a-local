@@ -64,13 +64,11 @@ This is also where Leonardo da Vinci comes into the story. Leonardo worked for *
 
 One thing to know before visiting: the Sala delle Asse has been undergoing restoration, so access can change. Check the current opening information before you go.
 
-For us, the highlight inside the castle was **Michelangelo's Pietà Rondanini**, his final sculpture. He was still working on it when he died in 1564, and unlike his perfectly finished sculptures, this one feels raw and unfinished. You can almost see the artist still trying to find the final form in the marble.
-
 <img class="float-right" src="/Assets/Italy/115-pieta-sculpture-in-museum.jpg" alt="Michelangelo's Pietà Rondanini">
 
-The castle also houses collections of paintings, sculptures, armour, decorative arts and musical instruments, so you can easily spend a few hours here if you're interested in history.
+For us, the highlight inside the castle was **Michelangelo's Pietà Rondanini**, his final sculpture. He was still working on it when he died in 1564, and unlike his perfectly finished sculptures, this one feels raw and unfinished. You can almost see the artist still trying to find the final form in the marble.
 
-<img class="wide" src="/Assets/Italy/111-castle-museum-armor-gallery-entrance.jpg" alt="Castello Sforzesco's armoury gallery">
+The castle also houses collections of paintings, sculptures, armour, decorative arts and musical instruments, so you can easily spend a few hours here if you're interested in history.
 
 Afterwards, we walked through **Parco Sempione**, the huge park behind the castle, towards the Arco della Pace.
 
@@ -83,6 +81,8 @@ We continued our little Leonardo trail to **Santa Maria delle Grazie**, one of M
 Inside the Dominican convent next to the church is Leonardo da Vinci's **The Last Supper**.
 
 Leonardo painted it between 1495 and 1498 on the wall of the convent's refectory, depicting the moment when Jesus tells the apostles that one of them will betray him.
+
+<img class="small" src="/Assets/Italy/137-santa-maria-delle-grazie-cenacolo.jpg" alt="Leonardo da Vinci's The Last Supper">
 
 What makes it particularly special is that the painting is still on the original wall where Leonardo created it more than 500 years ago.
 
