@@ -240,6 +240,8 @@ After a few days in the city, we needed water.
 
 The boats that get you around the lake are actually public transport, run by Navigazione Laghi. Regular boats cost around €10-12 one way, and the faster boats run a bit more, around €15-17 with the speed surcharge. It's first come, first served, so take the train from Milan to Como Centrale and then head straight to the ferry, as early as you can manage.
 
+One thing worth knowing: don't plan to stay in the town of Como itself. The lake is where it's actually interesting, and Como Centrale isn't really necessary to visit beyond passing through it on your way to the ferry.
+
 There are two kinds of boats: fast boats and regular boats. The regular ones make more stops, but in my opinion they're also more scenic, so unless you're short on time, they're worth choosing over the fast ones.
 
 The two most popular stops are Bellagio and Varenna. We skipped Bellagio because we didn't want to deal with the crowds. In Lenno, we mostly swam in the lake, and it was beautiful.
