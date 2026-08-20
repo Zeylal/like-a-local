@@ -98,7 +98,7 @@ From the castle, we wandered towards **Brera**, Milan's artistic quarter.
 
 This was probably one of our favorite areas to simply walk around. Instead of feeling like a sightseeing route, Brera feels like a neighborhood: narrow streets, old buildings, little galleries, cafés, restaurants and people sitting outside.
 
-![A quiet street in Brera](/Assets/Italy/136-brera-street.jpg)
+<img class="portrait" src="/Assets/Italy/136-brera-street.jpg" alt="A quiet street in Brera">
 
 We didn't really have a plan. We walked through Via Fiori Chiari, Via Madonnina, Via Formentini and around Piazza del Carmine, stopping whenever something caught our attention.
 
@@ -391,31 +391,3 @@ Gelato by the lake.
 And the realization that sometimes **the most local experience isn't finding the "best restaurant" online.**
 
 Sometimes it's going into a supermarket, looking at ingredients you don't recognize, buying them anyway, and figuring dinner out when you get home.
-
----
-
-# Our take
-
-**Milan**
-🏛️ History: **10/10**
-🍝 Food: **10/10**
-🎨 Design: **10/10**
-🚶 Walkability: **9/10**
-👥 August crowds: **6/10**
-
-**Lake Como**
-🌊 Scenery: **10/10**
-🏊 Swimming: **9/10**
-🏘️ Small villages: **9/10**
-🚤 Getting around by boat: **10/10**
-👥 Crowds: **7/10**
-
-### Would we do it again?
-
-Absolutely.
-
-But next time, I'd spend less time trying to fit everything in and more time staying somewhere once we like it.
-
-Because the best parts of this trip weren't necessarily the things we planned.
-
-They were the moments when **the plan stopped working.** 🇮🇹
