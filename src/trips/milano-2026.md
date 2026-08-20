@@ -31,9 +31,9 @@ highlights:
   - { image: "/Assets/Italy/107-galleria-archway-view.jpg", caption: "Galleria Vittorio Emanuele II" }
   - { image: "/Assets/Italy/15-giant-hand-sculpture-in-piazza.jpg", caption: "L.O.V.E. - Il Dito" }
   - { image: "/Assets/Italy/27-lake-and-mountains-view.jpg", caption: "Lake Como" }
-  - { image: "/Assets/Italy/99-woman-with-vespa-on-cobblestone-street.jpg", caption: "A lakeside village street" }
-  - { image: "/Assets/Italy/135-aperol-spritz-at-sunset.jpg", caption: "Aperitivo by the lake" }
-  - { image: "/Assets/Italy/69-sunset-over-the-lake.jpg", caption: "Sunset over the lake" }
+  - { image: "/Assets/Italy/99-woman-with-vespa-on-cobblestone-street.jpg", caption: "Lenno, Lake Como" }
+  - { image: "/Assets/Italy/48-woman-on-ferry-island-villa.jpg", caption: "Villa del Balbianello, the Star Wars villa" }
+  - { image: "/Assets/Italy/69-sunset-over-the-lake.jpg", caption: "Varenna, Lake Como" }
 booking:
   title: "Booking the trip"
   intro:
