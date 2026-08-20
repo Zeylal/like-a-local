@@ -32,10 +32,7 @@ export const countries: Record<string, CountryInfo> = {
     tags: ['Cities', 'Food', 'Lakes', 'Italy'],
     visa: "It's in Europe, so Schengen rules apply — no visa needed, just a passport or ID card.",
     whenToGo: 'Late spring (May–June) or September: warm enough to swim in Como, cool enough to actually enjoy climbing the Duomo steps.',
-    intro: [
-      "Italy is one of those places where history isn't really something you visit, it's something you walk through. From ancient Rome and Renaissance Florence to the everyday streets of Milan, every city seems to have another layer underneath it.",
-      "For me, Italy is as much about how people live as what they came to see. Long lunches, tiny cafés, local markets, beautiful architecture, art around every corner, and food that somehow becomes part of the memory of a place.",
-    ],
+    intro: [],
     cities: ['Rome', 'Milan', 'Naples', 'Pompei', 'Italian islands'],
     heroImage: '/Assets/Italy/Italy-rome-collesium.jpeg',
     hotspots: [

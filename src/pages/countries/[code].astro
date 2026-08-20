@@ -31,12 +31,14 @@ const StoryContent = story ? (await render(story)).Content : null;
     <h1>Visiting {country.name} {country.emoji}</h1>
   </header>
 
-  <CityIntro
-    about={country.intro}
-    heroImage={country.heroImage}
-    hotspots={country.hotspots ?? []}
-    heading={`About ${country.name} ${country.emoji}`}
-  />
+  {country.intro && country.intro.length > 0 && (
+    <CityIntro
+      about={country.intro}
+      heroImage={country.heroImage}
+      hotspots={country.hotspots ?? []}
+      heading={`About ${country.name} ${country.emoji}`}
+    />
+  )}
 
   {StoryContent && (
     <div class="wrap story">
