@@ -3,7 +3,7 @@ export interface CountryInfo {
   name: string;
   emoji: string;
   tags: string[];
-  travelTimeFromFrance: string;
+  travelTimeFromFrance?: string;
   visa: string;
   whenToGo: string;
   intro: string[];
@@ -30,12 +30,11 @@ export const countries: Record<string, CountryInfo> = {
     name: 'Italy',
     emoji: '🇮🇹',
     tags: ['Cities', 'Food', 'Lakes', 'Italy'],
-    travelTimeFromFrance: 'Paris → Milan, about 1h35 direct — shorter than some train rides within France.',
-    visa: 'None needed. Italy is in the Schengen Area, same as home — just a passport or ID card.',
+    visa: "It's in Europe, so Schengen rules apply — no visa needed, just a passport or ID card.",
     whenToGo: 'Late spring (May–June) or September: warm enough to swim in Como, cool enough to actually enjoy climbing the Duomo steps.',
     intro: [
-      "Italy might be the destination that needs the least convincing — no visa, a flight shorter than the drive to Biarritz, and a culture that rewards showing up without much of a plan.",
-      "What I didn't expect was how different the north feels from the postcard version of Italy: Milan is fashion and finance by day, spritz-on-a-canal by evening, and an hour's train ride puts you lakeside in Como or under a 2,000-year-old arena in Verona.",
+      "Italy is one of those places where history isn't really something you visit, it's something you walk through. From ancient Rome and Renaissance Florence to the everyday streets of Milan, every city seems to have another layer underneath it.",
+      "For me, Italy is as much about how people live as what they came to see. Long lunches, tiny cafés, local markets, beautiful architecture, art around every corner, and food that somehow becomes part of the memory of a place.",
     ],
     cities: ['Rome', 'Milan', 'Naples', 'Pompei', 'Italian islands'],
     heroImage: '/Assets/Italy/Italy-rome-collesium.jpeg',

@@ -48,7 +48,9 @@ const StoryContent = story ? (await render(story)).Content : null;
     <div class="facts">
       <div class="fact"><div class="k">Visa</div><div class="v">{country.visa}</div></div>
       <div class="fact"><div class="k">When to go</div><div class="v">{country.whenToGo}</div></div>
-      <div class="fact"><div class="k">From France</div><div class="v">{country.travelTimeFromFrance}</div></div>
+      {country.travelTimeFromFrance && (
+        <div class="fact"><div class="k">From France</div><div class="v">{country.travelTimeFromFrance}</div></div>
+      )}
     </div>
   </div>
 
