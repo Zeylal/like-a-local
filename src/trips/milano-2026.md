@@ -2,9 +2,8 @@
 title: "Milan & Lake Como"
 subtitle: "Renaissance castles, a very Milanese sculpture, a home-cooked pasta night, and one perfect evening on Lake Como."
 teaser: "Castello Sforzesco, a half-finished Michelangelo, a marble middle finger at the stock exchange, and a sunset evening in Varenna."
-# PLACEHOLDER — swap in your exact travel dates
-dates: "[add exact dates] · a few days in Milan + 1 day at Lake Como"
-stamp: "Summer 2026"
+dates: "August 2026"
+stamp: "Aug 2026"
 emoji: "🇮🇹"
 badge: "A favourite ✧"
 image: "/Assets/Italy/09-couple-in-front-of-castle.jpg"
@@ -22,74 +21,6 @@ pins:
   - { n: "Lenno, Lake Como", c: [45.9764, 9.2075], e: "🏖️" }
   - { n: "Tremezzo — Villa Carlotta", c: [45.9917, 9.2264], e: "🌺" }
   - { n: "Varenna", c: [46.0106, 9.2836], e: "🌅" }
-dayByDay:
-  - heading: "🏠 Home base: Porta Venezia"
-    paragraphs:
-      - 'We spent a few days in Milan, staying in a beautiful apartment in the Porta Venezia area, and used the city as a base for exploring both Milan and Lake Como.'
-    images:
-      - "/Assets/Italy/02-two-women-in-living-room.jpg"
-      - "/Assets/Italy/06-woman-in-green-hallway.jpg"
-  - heading: "🏛️ Milan: history, art & wandering"
-    paragraphs:
-      - "We started by exploring <b>Castello Sforzesco</b>, one of Milan's most important historic landmarks. The castle was originally a Visconti fortress and later became the residence of the powerful Sforza family, who ruled Milan during the Renaissance."
-      - "Inside, we discovered the <b>Pietà Rondanini</b>, Michelangelo's final sculpture. It was particularly striking because it feels very different from his famous, highly polished works. Michelangelo was still working on it when he died in 1564, and the unfinished quality makes it feel incredibly intimate."
-      - "We also explored the castle gardens and learned about Milan's Renaissance history, including the connections between the Sforza court, Leonardo da Vinci and the wider political world of Renaissance Italy."
-      - "From there, we wandered through the historic centre and discovered one of Milan's strangest places: <b>San Bernardino alle Ossa</b>, a chapel whose walls are decorated with human skulls and bones. It dates back to the medieval period, when the nearby cemetery became overcrowded. The chapel is both beautiful and slightly unsettling, with an elaborate Baroque ceiling above the bone-covered walls."
-      - "Right beside it is <b>Santo Stefano Maggiore</b>, one of Milan's oldest churches. Its history goes back to late antiquity, and it has some fascinating connections to Caravaggio, who was baptized there, as well as the assassination of Milanese Duke Galeazzo Maria Sforza in 1476."
-      - "We also visited <b>Santa Maria delle Grazie</b> and the area around Bramante's sacristy. Although we didn't manage to see Leonardo's Last Supper itself, we got to explore the historic complex where it is housed."
-    images:
-      - "/Assets/Italy/08-couple-in-front-of-castle.jpg"
-      - "/Assets/Italy/10-woman-by-castle-fountain.jpg"
-      - "/Assets/Italy/14-crucifix-statues-in-museum.jpg"
-      - "/Assets/Italy/16-woman-under-stone-arches.jpg"
-      - "/Assets/Italy/20-girl-under-stone-arches.jpg"
-  - heading: "🖕 A very Milanese piece of modern art"
-    paragraphs:
-      - "We also went to <b>Piazza degli Affari</b>, home of Maurizio Cattelan's famous sculpture <b>L.O.V.E.</b>, usually nicknamed <i>Il Dito</i>."
-      - "A gigantic marble hand stands directly in front of the Italian Stock Exchange, giving the financial world a rather unmistakable middle finger."
-      - "The sculpture was installed in 2010 and is generally interpreted as a criticism of the financial establishment, capitalism and institutional power. The contrast between the monumental architecture and the enormous gesture makes it one of Milan's funniest and most provocative landmarks."
-    images:
-      - "/Assets/Italy/15-giant-hand-sculpture-in-piazza.jpg"
-  - heading: "🍝 A little Italian cooking night"
-    paragraphs:
-      - "Because our apartment had a full kitchen, we decided to actually cook in Milan rather than eat out every night."
-      - "We bought fresh Italian pasta, including cappellacci filled with chanterelle mushrooms (<i>finferli</i>) and mezzelune filled with burrata and 'nduja."
-      - "The mushroom cappellacci were cooked simply with butter, sage and Parmigiano, while we kept the asparagus cream we bought separately as an appetizer. It ended up being one of those very simple meals that feels much more memorable because you're eating it in the place where the ingredients come from."
-  - heading: "🌊 Lake Como"
-    paragraphs:
-      - "For our Lake Como day, we deliberately avoided trying to conquer the entire lake in one go."
-      - "We headed to <b>Lenno</b>, a small village on the western shore. It was quieter and more relaxed than the famous Bellagio/Varenna route, and we spent time by the lake, including swimming."
-      - "We also explored the area around <b>Ossuccio</b> and <b>Tremezzina</b>, taking in the mountain scenery, villas and little lakeside communities."
-      - "One of the things we really wanted to see was <b>Villa del Balbianello</b>, famous for appearing as Naboo in <i>Star Wars: Episode II</i> and also in <i>Casino Royale</i>. Unfortunately, our visit fell on a Monday, when the villa was closed. 😭"
-      - "We couldn't enter the gardens, but we were able to see the villa and peninsula from the lake, which actually gave us one of the most cinematic views of it."
-      - "We also discovered <b>Villa Carlotta</b> in Tremezzo, another spectacular historic villa famous for its gardens, sculptures and views across Lake Como."
-      - "Eventually we continued to <b>Varenna</b>, where we arrived in the evening. This was probably more our style than Lenno for wandering: narrow lanes, little stairways, old stone buildings, the lakeside promenade and a more traditional village atmosphere."
-      - "We finished the day walking around Varenna, enjoying the lake at sunset and having a relaxed evening rather than trying to squeeze in another attraction."
-    images:
-      - "/Assets/Italy/27-lake-and-mountains-view.jpg"
-      - "/Assets/Italy/48-woman-on-ferry-island-villa.jpg"
-      - "/Assets/Italy/51-girl-in-white-dress-on-pier.jpg"
-      - "/Assets/Italy/65-woman-under-stone-arch-sunset.jpg"
-      - "/Assets/Italy/69-sunset-over-the-lake.jpg"
-  - heading: "❤️ What made the trip special"
-    paragraphs:
-      - "What I liked most about the trip was the contrast."
-      - "<b>Milan</b> gave us: Renaissance history → castles → Michelangelo → churches → strange modern art → cafés → city life."
-      - "<b>Lake Como</b> gave us: mountains → little villages → swimming → boats → historic villas → sunset by the water."
-      - "We didn't try to see absolutely everything, and honestly, that made the trip better. We skipped some of the busiest places like Bellagio and didn't turn Lake Como into a checklist of famous villas."
-      - "It was more about wandering, discovering things accidentally, and letting the trip breathe rather than rushing to check off famous names."
-    images:
-      - "/Assets/Italy/38-couple-selfie-playful.jpg"
-dishes:
-  - { emoji: "🍄", name: "Cappellacci ai finferli", description: "Fresh pasta filled with chanterelle mushrooms, cooked simply with butter, sage and Parmigiano.", price: "home-cooked 🏠" }
-  - { emoji: "🧀", name: "Mezzelune, burrata & 'nduja", description: "Fresh pasta from a local shop, filled with burrata and spicy 'nduja.", price: "home-cooked 🏠" }
-  - { emoji: "🥬", name: "Asparagus cream", description: "A simple appetizer to start the cooking night — kept separate from the pasta so nothing competed.", price: "home-cooked 🏠" }
-tips:
-  - "<b>Villa del Balbianello</b> is closed on Mondays — check the opening days before planning your Como itinerary around it."
-  - "<b>Lenno</b> is a quieter, less crowded alternative to Bellagio or Varenna if you actually want to swim in the lake."
-  - "Do both sides of the Como \"personality\": <b>Lenno</b> for a calm, swim-friendly afternoon, <b>Varenna</b> for that classic postcard evening with narrow lanes and lake-view sunsets."
-  - "<b>Cook at least one meal</b> if your apartment has a kitchen — fresh pasta from a local shop is easily the best-value, most memorable meal you'll have in Milan."
-  - "You don't need to see everything. Skipping Bellagio and not chasing every famous villa made the Como day feel like a day off, not a checklist."
 about:
   - "Milan's history runs deeper than its fashion-capital reputation suggests — Castello Sforzesco began as a Visconti fortress before becoming the Renaissance seat of the Sforza family, and its museums hold one of Michelangelo's last, most unfinished, most human works."
   - "The city's contrasts are part of its charm: a chapel walled in human bones sits quietly beside one of Milan's oldest churches, while a few streets over, a giant marble hand flips off the Italian Stock Exchange."
@@ -99,3 +30,261 @@ hotspots:
   - { x: 22, y: 68, label: "San Bernardino alle Ossa", info: "A small chapel whose walls are lined with human skulls and bones, dating back to when the neighbouring medieval cemetery ran out of room." }
   - { x: 75, y: 72, label: "L.O.V.E. (\"Il Dito\")", info: "Maurizio Cattelan's giant marble hand giving the Italian Stock Exchange the finger — installed 2010, read as a jab at capitalism and institutional power." }
 ---
+
+We came to Milan with a fairly ambitious little plan: explore the city, eat good Italian food, escape to Lake Como, swim somewhere beautiful, find small villages, and maybe even see the villa from *Star Wars*.
+
+Naturally, reality had other plans.
+
+And that ended up being the best part.
+
+---
+
+## Milan felt older than we expected
+
+Our first days were mostly spent wandering through Milan rather than trying to "complete" it.
+
+We started at **Castello Sforzesco**, which initially looked like a beautiful old castle to wander through. Then we started learning about the people who actually lived and worked there.
+
+The Sforza family turned Milan into one of the great Renaissance courts. **Ludovico il Moro** brought artists like Leonardo da Vinci to the city, and the castle became part of this strange concentration of power, art and ambition.
+
+Inside, we found **Michelangelo's Pietà Rondanini**, the last sculpture he worked on before his death. It was probably one of the most memorable things we saw in Milan. Unlike the perfect marble figures we normally associate with Michelangelo, this one feels unfinished, almost fragile.
+
+It made the history feel less like something in a textbook and more like something that happened to actual people.
+
+![Castello Sforzesco](/Assets/Italy/08-couple-in-front-of-castle.jpg)
+
+---
+
+## We started noticing the history everywhere
+
+Milan became more interesting once we stopped looking only for the famous things.
+
+We walked into **San Bernardino alle Ossa**, a tiny chapel decorated with human skulls and bones. It's strangely beautiful, and slightly unsettling in the way only a centuries-old European church can be.
+
+A few steps away is **Santo Stefano Maggiore**, whose history goes back more than 1,500 years. Caravaggio was baptized there, and in 1476 the Duke of Milan, Galeazzo Maria Sforza, was assassinated inside the church.
+
+It was one of those moments when Milan suddenly stopped feeling like a modern fashion city and started feeling like a place with an enormous memory.
+
+![Under the stone arches near San Bernardino alle Ossa](/Assets/Italy/16-woman-under-stone-arches.jpg)
+
+---
+
+## Then there was Leonardo
+
+We visited **Santa Maria delle Grazie**, where Leonardo painted *The Last Supper*.
+
+We didn't manage to see the painting itself, but standing in the complex still felt significant. Bramante, Leonardo and the Sforza court all intersect here, and suddenly the Renaissance history we'd been learning about at the castle connected together.
+
+That became one of my favorite things about Milan:
+
+**you walk for ten minutes and accidentally walk through another 500 years of history.**
+
+---
+
+## And then Milan gave us a giant middle finger
+
+Literally.
+
+We found **L.O.V.E.**, Maurizio Cattelan's enormous marble hand in front of the Italian Stock Exchange.
+
+It's difficult to miss the point.
+
+A gigantic middle finger standing in front of the financial district is Cattelan's deliberately provocative comment on finance, capitalism and institutional power.
+
+It was also one of those moments where we thought:
+
+**only Milan would put something this ridiculous in such a serious historical setting.**
+
+![L.O.V.E. — Il Dito, Piazza degli Affari](/Assets/Italy/15-giant-hand-sculpture-in-piazza.jpg)
+
+---
+
+# 🍝 Eating Milan
+
+Food became one of the best ways we experienced the city.
+
+Instead of trying to eat at a different famous restaurant every meal, we also went into supermarkets and local shops, bought fresh pasta and cooked at home.
+
+One night we made **cappellacci filled with finferli mushrooms**, simply with butter, sage and Parmigiano.
+
+Another pasta was filled with **burrata and 'nduja**, which we kept for another meal.
+
+We also discovered **risotto alla Milanese**, the dish that makes the most sense once you've understood Milan: simple ingredients, saffron, butter and Parmigiano, but somehow much more luxurious than it sounds.
+
+I liked this side of traveling more than checking restaurants off a list.
+
+Sometimes the best dinner is the one you're making in the apartment while trying to remember how long fresh pasta is supposed to cook.
+
+---
+
+# 🌊 Lake Como
+
+After a few days in the city, we needed water.
+
+![Lake Como, seen from the water](/Assets/Italy/27-lake-and-mountains-view.jpg)
+
+We originally imagined Lake Como as a perfectly organized day of villas, famous towns and beautiful photographs.
+
+That lasted approximately until we arrived.
+
+We went to **Lenno**, on the western shore, and it turned out to be much smaller than we expected. But it was beautiful, quiet, and perfect for swimming.
+
+We spent time by the lake, wandered around the village and explored the surrounding area.
+
+It wasn't the kind of place where you spend hours shopping or wandering through endless little streets. It was more about **the water, the mountains and slowing down**.
+
+And that was exactly what we needed.
+
+---
+
+## The Star Wars villa... almost
+
+One of the things I really wanted to see was **Villa del Balbianello**, famous for its appearance as Naboo in *Star Wars: Episode II*.
+
+There was one small problem.
+
+**We went on Monday.**
+
+The villa was closed.
+
+Naturally.
+
+We couldn't enter the gardens, but we saw the peninsula from the boat, which was actually beautiful in its own way. Seeing the villa from the lake gave us the cinematic view we'd been looking for.
+
+So no, we didn't recreate the Star Wars scene.
+
+We did, however, spend the day taking photographs from a boat and pretending the closed villa was part of the plan.
+
+![Villa del Balbianello, seen from the ferry](/Assets/Italy/48-woman-on-ferry-island-villa.jpg)
+
+---
+
+# 🌿 Tremezzo
+
+We continued along the lake toward **Tremezzo**, where we saw the area around **Villa Carlotta**.
+
+The villa and its gardens are much more than just another pretty building. The gardens are filled with plants, sculptures and terraces overlooking the lake.
+
+What I loved most wasn't even a specific attraction. It was the way the villas sit within the landscape.
+
+The lake isn't just something in front of the buildings.
+
+**It is part of the architecture.**
+
+Everywhere you look, the houses, gardens, mountains and water seem to have been designed around one another.
+
+---
+
+# 🚤 Varenna
+
+Later, we took the boat to **Varenna**.
+
+We arrived in the evening, which turned out to be perfect.
+
+Lenno had been beautiful but tiny. Varenna had more of what we'd been looking for: **narrow streets, stairs, little shops, old stone buildings and a proper village atmosphere**.
+
+By the time we arrived, many of the day-trippers were leaving.
+
+We walked around without a plan, followed the streets toward the lake, and watched the light change over the water.
+
+![Varenna at golden hour](/Assets/Italy/65-woman-under-stone-arch-sunset.jpg)
+
+That ended up being one of my favorite moments of the trip.
+
+Not because Varenna had the biggest attraction.
+
+Because we finally had nowhere we needed to be.
+
+---
+
+# 🧭 What we learned
+
+Our original Lake Como plan was much more ambitious.
+
+We wanted to see everything.
+
+Then we realized that **seeing everything isn't necessarily experiencing anything**.
+
+We skipped Bellagio because it was too busy for what we wanted. We didn't force ourselves through every famous villa. We changed plans when places were crowded or closed.
+
+And that became the rhythm of the trip.
+
+**See something interesting.
+Stay if we like it.
+Leave if we don't.
+Eat something.
+Swim.
+Walk around.
+Change the plan.**
+
+It felt much closer to how I actually want to travel.
+
+---
+
+## 👀 What I noticed
+
+Milan was fascinating because of the contrast between **history and everyday life**.
+
+A Renaissance castle can sit a few streets away from a modern design shop.
+
+A church can contain 1,500 years of history and have a café across the road.
+
+A giant marble middle finger can stand in front of the Italian Stock Exchange.
+
+And people just continue with their day.
+
+Lake Como felt different.
+
+There, life seemed to revolve much more around the water. Boats are part of everyday transport, villages stretch along the shoreline, and the mountains make everything feel smaller and slower.
+
+---
+
+## 🍴 What stayed with me
+
+More than any single restaurant, it was the food itself.
+
+Fresh pasta.
+
+Saffron.
+
+Parmigiano.
+
+Mushrooms.
+
+Burrata.
+
+'Nduja.
+
+Gelato by the lake.
+
+And the realization that sometimes **the most local experience isn't finding the "best restaurant" online.**
+
+Sometimes it's going into a supermarket, looking at ingredients you don't recognize, buying them anyway, and figuring dinner out when you get home.
+
+---
+
+# Our take
+
+**Milan**
+🏛️ History: **10/10**
+🍝 Food: **10/10**
+🎨 Design: **10/10**
+🚶 Walkability: **9/10**
+👥 August crowds: **6/10**
+
+**Lake Como**
+🌊 Scenery: **10/10**
+🏊 Swimming: **9/10**
+🏘️ Small villages: **9/10**
+🚤 Getting around by boat: **10/10**
+👥 Crowds: **7/10**
+
+### Would we do it again?
+
+Absolutely.
+
+But next time, I'd spend less time trying to fit everything in and more time staying somewhere once we like it.
+
+Because the best parts of this trip weren't necessarily the things we planned.
+
+They were the moments when **the plan stopped working.** 🇮🇹

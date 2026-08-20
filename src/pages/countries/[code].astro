@@ -37,6 +37,15 @@ const trips = (await getCollection('trips'))
     </div>
   </div>
 
+  {country.regions && country.regions.length > 0 && (
+    <div class="wrap">
+      <h2>Regions on the radar <span>🧭</span></h2>
+      <div class="city-chips">
+        {country.regions.map((region) => <span class="city-chip city-chip--region">{region}</span>)}
+      </div>
+    </div>
+  )}
+
   {country.cities && country.cities.length > 0 && (
     <div class="wrap">
       <h2>Cities on the radar <span>📍</span></h2>

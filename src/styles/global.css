@@ -88,6 +88,20 @@ h2 span{font-size:1.4rem}
 .badge{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
   background:var(--sand);color:var(--terra);padding:3px 10px;border-radius:999px;margin-top:10px}
 
+/* trip page: markdown-body story content */
+.story{line-height:1.7;font-size:1.02rem}
+.story h1{font-family:'Caveat',cursive;font-size:2.3rem;color:var(--terra);margin:24px 0 10px}
+.story h2{font-size:1.9rem;margin:26px 0 10px}
+.story h3{font-family:'Caveat',cursive;font-size:1.5rem;color:var(--espresso);margin:20px 0 8px}
+.story p{margin-bottom:14px}
+.story strong{color:var(--terra)}
+.story em{color:var(--grey)}
+.story hr{border:none;border-top:2px dashed var(--sand);margin:28px 0}
+.story ul,.story ol{margin:0 0 14px 22px}
+.story li{margin-bottom:6px}
+.story img{width:100%;max-height:420px;object-fit:cover;border-radius:12px;
+  box-shadow:0 10px 26px rgba(46,42,38,.18);margin:6px 0 20px}
+
 /* trip page: facts chips */
 .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:26px 0 8px}
 .fact{background:#fff;border-radius:10px;padding:12px 14px;box-shadow:0 6px 16px rgba(46,42,38,.1);transform:rotate(-.5deg)}
@@ -133,6 +147,7 @@ h2 span{font-size:1.4rem}
 .city-chips{display:flex;flex-wrap:wrap;gap:10px;padding-top:4px}
 .city-chip{font-family:'Caveat',cursive;font-size:1.15rem;color:var(--terra);background:var(--sand);
   padding:5px 16px;border-radius:999px}
+.city-chip--region{color:var(--olive);background:#fff;border:2px solid var(--olive)}
 
 /* trip page: budget & tips */
 .tips{background:#fff;border-radius:12px;padding:20px 22px;box-shadow:0 8px 20px rgba(46,42,38,.1)}

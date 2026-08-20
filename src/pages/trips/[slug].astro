@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CityIntro from '../../components/CityIntro.astro';
 
@@ -10,6 +10,8 @@ export async function getStaticPaths() {
 
 const { trip } = Astro.props;
 const { data } = trip;
+const { Content } = await render(trip);
+const hasStory = (trip.body ?? '').trim().length > 0;
 const heroImage = data.heroImage ?? data.image;
 ---
 <BaseLayout title={`${data.title} — like a local`} bodyClass="trip">
@@ -38,38 +40,50 @@ const heroImage = data.heroImage ?? data.image;
     </div>
   </div>
 
-  <section>
-    <div class="wrap">
-      <h2>Day by day <span>📔</span></h2>
-      {data.dayByDay.map((day) => (
-        <div class="day">
-          <h3>{day.heading}</h3>
-          {day.paragraphs.map((p) => <p set:html={p} />)}
-          {day.images && day.images.length > 0 && (
-            <div class="day-photos">
-              {day.images.map((src) => <img src={src} alt="" loading="lazy">)}
-            </div>
-          )}
-        </div>
-      ))}
-    </div>
-  </section>
+  {hasStory && (
+    <section>
+      <div class="wrap story">
+        <Content />
+      </div>
+    </section>
+  )}
 
-  <section>
-    <div class="wrap">
-      <h2>Local stops — where we ate <span>🍝</span></h2>
-      <div class="food">
-        {data.dishes.map((dish) => (
-          <div class="dish">
-            <span class="emoji">{dish.emoji}</span>
-            <h4>{dish.name}</h4>
-            <p set:html={dish.description} />
-            <span class="price">{dish.price}</span>
+  {data.dayByDay && data.dayByDay.length > 0 && (
+    <section>
+      <div class="wrap">
+        <h2>Day by day <span>📔</span></h2>
+        {data.dayByDay.map((day) => (
+          <div class="day">
+            <h3>{day.heading}</h3>
+            {day.paragraphs.map((p) => <p set:html={p} />)}
+            {day.images && day.images.length > 0 && (
+              <div class="day-photos">
+                {day.images.map((src) => <img src={src} alt="" loading="lazy">)}
+              </div>
+            )}
           </div>
         ))}
       </div>
-    </div>
-  </section>
+    </section>
+  )}
+
+  {data.dishes && data.dishes.length > 0 && (
+    <section>
+      <div class="wrap">
+        <h2>Local stops — where we ate <span>🍝</span></h2>
+        <div class="food">
+          {data.dishes.map((dish) => (
+            <div class="dish">
+              <span class="emoji">{dish.emoji}</span>
+              <h4>{dish.name}</h4>
+              <p set:html={dish.description} />
+              <span class="price">{dish.price}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 
   <section>
     <div class="wrap">
@@ -78,16 +92,18 @@ const heroImage = data.heroImage ?? data.image;
     </div>
   </section>
 
-  <section>
-    <div class="wrap">
-      <h2>Budget &amp; tips <span>💶</span></h2>
-      <div class="tips">
-        <ul>
-          {data.tips.map((tip) => <li set:html={tip} />)}
-        </ul>
+  {data.tips && data.tips.length > 0 && (
+    <section>
+      <div class="wrap">
+        <h2>Budget &amp; tips <span>💶</span></h2>
+        <div class="tips">
+          <ul>
+            {data.tips.map((tip) => <li set:html={tip} />)}
+          </ul>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  )}
 
   <footer class="wrap">
     <span class="hand">andiamo ✧</span>
