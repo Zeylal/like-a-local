@@ -1,5 +1,5 @@
 :root{
-  --cream:#FAF4EA; --sand:#F0E3CF; --terra:#C4552D; --espresso:#2E2A26;
+  --cream:#FAF4EA; --sand:#F0E3CF; --terra:#4C8C3C; --espresso:#2E2A26;
   --olive:#6B7A44; --grey:#7A736B; --pink:#E8B4A0; --sea:#5B7FA6; --sun:#F2C94C;
 }
 *{margin:0;padding:0;box-sizing:border-box}
@@ -170,6 +170,21 @@ h2 span{font-size:1.4rem}
 .city-chip{font-family:'Caveat',cursive;font-size:1.15rem;color:var(--terra);background:var(--sand);
   padding:5px 16px;border-radius:999px}
 .city-chip--region{color:var(--olive);background:#fff;border:2px solid var(--olive)}
+
+/* trip page: quick-navigation sidebar */
+.trip-nav{display:none}
+@media(min-width:1300px){
+  .trip-nav{display:block;position:fixed;top:50%;left:max(20px, calc((100vw - 820px) / 2 - 260px));
+    transform:translateY(-50%);width:230px;max-height:80vh;overflow-y:auto;z-index:5}
+  .trip-nav__title{display:block;font-family:'Caveat',cursive;font-size:1.2rem;color:var(--grey);
+    margin-bottom:8px;padding-left:12px}
+  .trip-nav ul{list-style:none}
+  .trip-nav li{margin-bottom:2px}
+  .trip-nav a{display:block;padding:6px 12px;font-size:.85rem;color:var(--grey);text-decoration:none;
+    border-left:3px solid transparent;line-height:1.4;transition:color .15s ease,border-color .15s ease}
+  .trip-nav a:hover{color:var(--terra)}
+  .trip-nav a.is-active{color:var(--terra);border-left-color:var(--terra);font-weight:600}
+}
 
 /* trip page: budget & tips */
 .tips{background:#fff;border-radius:12px;padding:20px 22px;box-shadow:0 8px 20px rgba(46,42,38,.1)}

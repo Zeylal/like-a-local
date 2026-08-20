@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import CityIntro from '../../components/CityIntro.astro';
 import HighlightsCarousel from '../../components/HighlightsCarousel.astro';
 import BookingAccordion from '../../components/BookingAccordion.astro';
+import TripNav from '../../components/TripNav.astro';
 
 export async function getStaticPaths() {
   const trips = await getCollection('trips');
@@ -12,9 +13,20 @@ export async function getStaticPaths() {
 
 const { trip } = Astro.props;
 const { data } = trip;
-const { Content } = await render(trip);
+const { Content, headings } = await render(trip);
 const hasStory = (trip.body ?? '').trim().length > 0;
 const heroImage = data.heroImage ?? data.image;
+
+// Quick-nav links, in the order sections actually render on the page.
+const navItems = [
+  ...(data.highlights && data.highlights.length > 0 ? [{ id: 'highlights', label: 'The highlights' }] : []),
+  ...(data.booking ? [{ id: 'booking', label: data.booking.title }] : []),
+  ...headings.filter((h) => h.depth <= 2).map((h) => ({ id: h.slug, label: h.text })),
+  ...(data.dayByDay && data.dayByDay.length > 0 ? [{ id: 'day-by-day', label: 'Day by day' }] : []),
+  ...(data.dishes && data.dishes.length > 0 ? [{ id: 'food', label: 'Where we ate' }] : []),
+  { id: 'route', label: 'The route' },
+  ...(data.tips && data.tips.length > 0 ? [{ id: 'tips', label: 'Budget & tips' }] : []),
+];
 ---
 <BaseLayout title={`${data.title} — like a local`} bodyClass="trip">
   <Fragment slot="head">
@@ -24,6 +36,8 @@ const heroImage = data.heroImage ?? data.image;
   <div class="wrap">
     <a class="back" href="/">← back to all trips</a>
   </div>
+
+  <TripNav items={navItems} />
 
   <header class="wrap">
     {data.collage && data.collage.map((item, i) => (
@@ -62,7 +76,7 @@ const heroImage = data.heroImage ?? data.image;
   )}
 
   {data.dayByDay && data.dayByDay.length > 0 && (
-    <section>
+    <section id="day-by-day">
       <div class="wrap">
         <h2>Day by day <span>📔</span></h2>
         {data.dayByDay.map((day) => (
@@ -81,7 +95,7 @@ const heroImage = data.heroImage ?? data.image;
   )}
 
   {data.dishes && data.dishes.length > 0 && (
-    <section>
+    <section id="food">
       <div class="wrap">
         <h2>Local stops — where we ate <span>🍝</span></h2>
         <div class="food">
@@ -98,7 +112,7 @@ const heroImage = data.heroImage ?? data.image;
     </section>
   )}
 
-  <section>
+  <section id="route">
     <div class="wrap">
       <h2>The route <span>🗺</span></h2>
       <div id="tripmap"></div>
@@ -106,7 +120,7 @@ const heroImage = data.heroImage ?? data.image;
   </section>
 
   {data.tips && data.tips.length > 0 && (
-    <section>
+    <section id="tips">
       <div class="wrap">
         <h2>Budget &amp; tips <span>💶</span></h2>
         <div class="tips">

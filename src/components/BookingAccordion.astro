@@ -12,7 +12,7 @@ interface Props {
 
 const { title, intro = [], items } = Astro.props;
 ---
-<section class="booking-block">
+<section class="booking-block" id="booking">
   <div class="wrap">
     <h2>{title}</h2>
     {intro.map((p) => <p set:html={p} />)}

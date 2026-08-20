@@ -12,7 +12,7 @@ const { highlights } = Astro.props;
 const id = `carousel-${Math.random().toString(36).slice(2, 8)}`;
 ---
 {highlights.length > 0 && (
-  <section class="highlights">
+  <section class="highlights" id="highlights">
     <div class="wrap">
       <h2>The highlights <span>✨</span></h2>
     </div>

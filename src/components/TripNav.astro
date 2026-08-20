@@ -1,0 +1,74 @@
+---
+interface NavItem {
+  id: string;
+  label: string;
+}
+
+interface Props {
+  items: NavItem[];
+}
+
+const { items } = Astro.props;
+---
+{items.length > 0 && (
+  <nav class="trip-nav" aria-label="Quick navigation">
+    <span class="trip-nav__title">On this page</span>
+    <ul>
+      {items.map((item) => (
+        <li><a href={`#${item.id}`} data-target={item.id}>{item.label}</a></li>
+      ))}
+    </ul>
+  </nav>
+)}
+
+<script>
+  const links = Array.from(document.querySelectorAll('.trip-nav a'));
+  if (links.length > 0) {
+    // Targets are already in page order (nav items were built in render order).
+    const targets = links
+      .map((link) => document.getElementById(link.getAttribute('data-target')))
+      .filter(Boolean);
+
+    const setActive = (id) => {
+      links.forEach((link) => link.classList.toggle('is-active', link.getAttribute('data-target') === id));
+    };
+
+    // The "current" section is the last one whose top has scrolled up past
+    // the threshold line — walking targets in document order and taking the
+    // last match is more reliable than IntersectionObserver's batched diff
+    // when sections are short and close together.
+    const updateActive = () => {
+      // Near the bottom of the page there may not be enough scroll room left
+      // to bring the last section up to the threshold line — force it active
+      // once the page itself is scrolled to (or near) its end.
+      const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+      if (atBottom) {
+        setActive(targets[targets.length - 1].id);
+        return;
+      }
+      const threshold = window.innerHeight * 0.25;
+      let current = targets[0]?.id;
+      for (const el of targets) {
+        if (el.getBoundingClientRect().top <= threshold) current = el.id;
+        else break;
+      }
+      if (current) setActive(current);
+    };
+
+    let ticking = false;
+    window.addEventListener(
+      'scroll',
+      () => {
+        if (!ticking) {
+          requestAnimationFrame(() => {
+            updateActive();
+            ticking = false;
+          });
+          ticking = true;
+        }
+      },
+      { passive: true }
+    );
+    updateActive();
+  }
+</script>
