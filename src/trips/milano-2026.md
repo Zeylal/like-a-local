@@ -216,12 +216,6 @@ Obviously, there had to be gelato.
 
 We stopped at **Gelateria Umberto 1934**, a much more old-school kind of gelateria. The name itself comes from its long history, and it felt like a nice little pause in the middle of exploring the city.
 
-It's the kind of stop that doesn't need an itinerary:
-
-walk → see gelato → stop.
-
-A very important Italian travel rule.
-
 ### ☕ And yes... Starbucks
 
 We also went to Starbucks.
