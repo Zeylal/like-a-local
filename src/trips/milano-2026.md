@@ -58,7 +58,7 @@ We started at **Castello Sforzesco**, one of Milan's most important historic lan
 
 The castle began as a Visconti fortress in the 14th century and was later transformed by the Sforza family, who made Milan one of the great political and artistic centres of Renaissance Italy.
 
-![One of Castello Sforzesco's towers](/Assets/Italy/114-castle-tower-view.jpg)
+<img class="portrait" src="/Assets/Italy/114-castle-tower-view.jpg" alt="One of Castello Sforzesco's towers">
 
 This is also where Leonardo da Vinci comes into the story. Leonardo worked for **Ludovico il Moro** and the Sforza court, and the castle still contains his **Sala delle Asse**, a remarkable decoration covering the walls and ceiling with an enormous illusion of branches and leaves.
 
@@ -104,14 +104,6 @@ That was actually the kind of Milan we liked most.
 
 Not rushing from monument to monument, but letting the city happen around us.
 
-### 🍝 Lunch at Miscusi
-
-We stopped for lunch at **Miscusi**, where we had fresh pasta.
-
-It's not a traditional old-school Milanese trattoria. It's more casual and modern, but after spending the morning walking around in the August heat, fresh pasta was exactly what we wanted.
-
-And this became a bit of a theme throughout the trip: food was never just something we did between sightseeing. It was part of how we experienced the city.
-
 ### 🍹 Aperitivo in old Milan
 
 If there's one Milan tradition we wanted to properly experience, it was aperitivo.
@@ -136,13 +128,13 @@ The Duomo.
 
 It's enormous, dramatic and completely worth seeing in person. The Gothic cathedral took centuries to build, and its hundreds of spires and statues make it one of those places that photographs don't really prepare you for.
 
-![The Duomo di Milano](/Assets/Italy/108-milan-duomo-exterior.jpg)
+<img class="portrait" src="/Assets/Italy/108-milan-duomo-exterior.jpg" alt="The Duomo di Milano">
 
 Right beside it is the **Galleria Vittorio Emanuele II**, one of the world's oldest shopping arcades.
 
 The glass roof, enormous central dome and mosaic floor make it feel less like a shopping centre and more like a piece of architecture that happens to contain Prada, cafés and restaurants.
 
-![Inside the Galleria Vittorio Emanuele II](/Assets/Italy/104-galleria-glass-dome-closeup.jpg)
+<img class="portrait" src="/Assets/Italy/104-galleria-glass-dome-closeup.jpg" alt="Inside the Galleria Vittorio Emanuele II">
 
 We walked through the Galleria, explored the area around the Duomo and let ourselves be tourists for a little while.
 
@@ -198,7 +190,7 @@ For pizza, we went to **Denis Milano – Porta Venezia**, and this one was a ver
 
 The pizza was really good, with a light, airy base and fresh toppings. Porta Venezia is also a great area to eat in because there are plenty of restaurants and cafés without having to go all the way into the most touristy parts of the city.
 
-![Pizza night in Porta Venezia](/Assets/Italy/110-pizza-dinner-at-restaurant.jpg)
+<img class="portrait" src="/Assets/Italy/110-pizza-dinner-at-restaurant.jpg" alt="Pizza night in Porta Venezia">
 
 If you're staying around Porta Venezia like we did, this is a convenient place to keep in mind when you want a proper Italian pizza without making dinner into another sightseeing mission.
 
@@ -222,7 +214,7 @@ Not because we suddenly forgot we were in Italy, but because the **Starbucks Res
 
 It's housed in the historic former Poste building in Piazza Cordusio, with huge interiors, elaborate architecture and a much more theatrical atmosphere than an ordinary Starbucks.
 
-![Inside the Starbucks Reserve Roastery](/Assets/Italy/122-starbucks-roastery-ceiling.jpg)
+<img class="portrait" src="/Assets/Italy/122-starbucks-roastery-ceiling.jpg" alt="Inside the Starbucks Reserve Roastery">
 
 So technically, this was also cultural research.
 
@@ -314,13 +306,13 @@ We arrived in the evening, which turned out to be perfect.
 
 Lenno had been beautiful but tiny. Varenna had more of what we'd been looking for: **narrow streets, stairs, little shops, old stone buildings and a proper village atmosphere**.
 
-![A scooter parked on a Varenna side street](/Assets/Italy/99-woman-with-vespa-on-cobblestone-street.jpg)
+<img class="portrait" src="/Assets/Italy/99-woman-with-vespa-on-cobblestone-street.jpg" alt="A scooter parked on a Varenna side street">
 
 By the time we arrived, many of the day-trippers were leaving.
 
 We sat down for an Aperol Spritz right on the water as the sun went down - mountains on one side, the lake turning gold on the other.
 
-![Aperitivo by the lake at sunset](/Assets/Italy/135-aperol-spritz-at-sunset.jpg)
+<img class="portrait" src="/Assets/Italy/135-aperol-spritz-at-sunset.jpg" alt="Aperitivo by the lake at sunset">
 
 We walked around without a plan, followed the streets toward the lake, and watched the light change over the water.
 
