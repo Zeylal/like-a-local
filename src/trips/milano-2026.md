@@ -194,6 +194,8 @@ We stopped for lunch at **Miscusi**, where we had fresh pasta.
 
 It's not a traditional old-school Milanese trattoria. It's more casual and modern, but after spending the morning walking around in the August heat, fresh pasta was exactly what we wanted.
 
+![Pasta and wine on the terrace at Miscusi](/Assets/Italy/102-pasta-and-wine-on-balcony.jpg)
+
 ### 🍝 Dal Bolognese
 
 Another stop on our list was **Dal Bolognese**, one more place we tried while exploring Milan's food scene.
