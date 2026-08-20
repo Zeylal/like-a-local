@@ -121,6 +121,7 @@ h2 span{font-size:1.4rem}
   box-shadow:0 10px 26px rgba(46,42,38,.18);margin:6px 0 20px}
 .story img.portrait{width:100%;max-width:380px;height:560px;max-height:70vh;
   object-fit:cover;display:block;margin:6px auto 20px}
+.story img.wide{max-height:none;aspect-ratio:4/3;object-fit:cover}
 
 /* trip page: facts chips */
 .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:26px 0 8px}

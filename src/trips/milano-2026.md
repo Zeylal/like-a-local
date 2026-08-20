@@ -66,11 +66,11 @@ One thing to know before visiting: the Sala delle Asse has been undergoing resto
 
 For us, the highlight inside the castle was **Michelangelo's Pietà Rondanini**, his final sculpture. He was still working on it when he died in 1564, and unlike his perfectly finished sculptures, this one feels raw and unfinished. You can almost see the artist still trying to find the final form in the marble.
 
-<img class="portrait" src="/Assets/Italy/115-pieta-sculpture-in-museum.jpg" alt="Michelangelo's Pietà Rondanini">
+<img class="wide" src="/Assets/Italy/115-pieta-sculpture-in-museum.jpg" alt="Michelangelo's Pietà Rondanini">
 
 The castle also houses collections of paintings, sculptures, armour, decorative arts and musical instruments, so you can easily spend a few hours here if you're interested in history.
 
-<img class="portrait" src="/Assets/Italy/111-castle-museum-armor-gallery-entrance.jpg" alt="Castello Sforzesco's armoury gallery">
+<img class="wide" src="/Assets/Italy/111-castle-museum-armor-gallery-entrance.jpg" alt="Castello Sforzesco's armoury gallery">
 
 Afterwards, we walked through **Parco Sempione**, the huge park behind the castle, towards the Arco della Pace.
 
@@ -98,7 +98,7 @@ From the castle, we wandered towards **Brera**, Milan's artistic quarter.
 
 This was probably one of our favorite areas to simply walk around. Instead of feeling like a sightseeing route, Brera feels like a neighborhood: narrow streets, old buildings, little galleries, cafés, restaurants and people sitting outside.
 
-<img class="portrait" src="/Assets/Italy/136-brera-street.jpg" alt="A quiet street in Brera">
+<img class="wide" src="/Assets/Italy/136-brera-street.jpg" alt="A quiet street in Brera">
 
 We didn't really have a plan. We walked through Via Fiori Chiari, Via Madonnina, Via Formentini and around Piazza del Carmine, stopping whenever something caught our attention.
 
@@ -130,13 +130,13 @@ The Duomo.
 
 It's enormous, dramatic and completely worth seeing in person. The Gothic cathedral took centuries to build, and its hundreds of spires and statues make it one of those places that photographs don't really prepare you for.
 
-<img class="portrait" src="/Assets/Italy/108-milan-duomo-exterior.jpg" alt="The Duomo di Milano">
+<img class="wide" src="/Assets/Italy/108-milan-duomo-exterior.jpg" alt="The Duomo di Milano">
 
 Right beside it is the **Galleria Vittorio Emanuele II**, one of the world's oldest shopping arcades.
 
 The glass roof, enormous central dome and mosaic floor make it feel less like a shopping centre and more like a piece of architecture that happens to contain Prada, cafés and restaurants.
 
-<img class="portrait" src="/Assets/Italy/104-galleria-glass-dome-closeup.jpg" alt="Inside the Galleria Vittorio Emanuele II">
+<img class="wide" src="/Assets/Italy/104-galleria-glass-dome-closeup.jpg" alt="Inside the Galleria Vittorio Emanuele II">
 
 We walked through the Galleria, explored the area around the Duomo and let ourselves be tourists for a little while.
 
@@ -192,7 +192,7 @@ For pizza, we went to **Denis Milano – Porta Venezia**, and this one was a ver
 
 The pizza was really good, with a light, airy base and fresh toppings. Porta Venezia is also a great area to eat in because there are plenty of restaurants and cafés without having to go all the way into the most touristy parts of the city.
 
-<img class="portrait" src="/Assets/Italy/110-pizza-dinner-at-restaurant.jpg" alt="Pizza night in Porta Venezia">
+<img class="wide" src="/Assets/Italy/110-pizza-dinner-at-restaurant.jpg" alt="Pizza night in Porta Venezia">
 
 If you're staying around Porta Venezia like we did, this is a convenient place to keep in mind when you want a proper Italian pizza without making dinner into another sightseeing mission.
 
@@ -216,7 +216,7 @@ Not because we suddenly forgot we were in Italy, but because the **Starbucks Res
 
 It's housed in the historic former Poste building in Piazza Cordusio, with huge interiors, elaborate architecture and a much more theatrical atmosphere than an ordinary Starbucks.
 
-<img class="portrait" src="/Assets/Italy/122-starbucks-roastery-ceiling.jpg" alt="Inside the Starbucks Reserve Roastery">
+<img class="wide" src="/Assets/Italy/122-starbucks-roastery-ceiling.jpg" alt="Inside the Starbucks Reserve Roastery">
 
 So technically, this was also cultural research.
 
@@ -308,13 +308,13 @@ We arrived in the evening, which turned out to be perfect.
 
 Lenno had been beautiful but tiny. Varenna had more of what we'd been looking for: **narrow streets, stairs, little shops, old stone buildings and a proper village atmosphere**.
 
-<img class="portrait" src="/Assets/Italy/99-woman-with-vespa-on-cobblestone-street.jpg" alt="A scooter parked on a Varenna side street">
+<img class="wide" src="/Assets/Italy/99-woman-with-vespa-on-cobblestone-street.jpg" alt="A scooter parked on a Varenna side street">
 
 By the time we arrived, many of the day-trippers were leaving.
 
 We sat down for an Aperol Spritz right on the water as the sun went down - mountains on one side, the lake turning gold on the other.
 
-<img class="portrait" src="/Assets/Italy/135-aperol-spritz-at-sunset.jpg" alt="Aperitivo by the lake at sunset">
+<img class="wide" src="/Assets/Italy/135-aperol-spritz-at-sunset.jpg" alt="Aperitivo by the lake at sunset">
 
 We walked around without a plan, followed the streets toward the lake, and watched the light change over the water.
 
