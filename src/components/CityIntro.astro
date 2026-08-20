@@ -10,13 +10,15 @@ interface Props {
   about: string[];
   heroImage: string;
   hotspots: Hotspot[];
+  heading?: string;
 }
 
-const { about, heroImage, hotspots } = Astro.props;
+const { about, heroImage, hotspots, heading = "About the city 🏙" } = Astro.props;
+const [headingText, headingEmoji] = [heading.replace(/\s*\S+$/, ''), heading.match(/\S+$/)?.[0]];
 ---
 <section class="city-intro-section">
   <div class="wrap">
-    <h2>About the city <span>🏙</span></h2>
+    <h2>{headingText} <span>{headingEmoji}</span></h2>
     <div class="city-intro">
       <div>
         {about.map((p) => <p set:html={p} />)}

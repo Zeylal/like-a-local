@@ -1,6 +1,7 @@
 ---
 import { getCollection, getEntry, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import CityIntro from '../../components/CityIntro.astro';
 import { countries } from '../../data/countries';
 
 export async function getStaticPaths() {
@@ -28,16 +29,18 @@ const StoryContent = story ? (await render(story)).Content : null;
   <header class="wrap">
     <span class="when">{country.tags.join(', ')}</span>
     <h1>Visiting {country.name} {country.emoji}</h1>
-    <div class="washi"></div>
   </header>
 
-  {StoryContent ? (
+  <CityIntro
+    about={country.intro}
+    heroImage={country.heroImage}
+    hotspots={country.hotspots ?? []}
+    heading={`About ${country.name} ${country.emoji}`}
+  />
+
+  {StoryContent && (
     <div class="wrap story">
       <StoryContent />
-    </div>
-  ) : (
-    <div class="wrap country-intro">
-      {country.intro.map((p) => <p>{p}</p>)}
     </div>
   )}
 
