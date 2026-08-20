@@ -68,4 +68,19 @@ const trips = defineCollection({
   }),
 });
 
-export const collections = { trips };
+// A country page (src/pages/countries/[code].astro) can optionally have a
+// matching long-form story here — filename = country code (e.g. TUR.md) —
+// for a richer write-up than the short intro in src/data/countries.ts.
+// The markdown body is the essay; the frontmatter below only covers the
+// small "stats" block the page shows at the end.
+const countryStories = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/countries' }),
+  schema: z.object({
+    tagline: z.string().optional(),
+    cityStats: z
+      .array(z.object({ name: z.string(), stats: z.string() }))
+      .optional(),
+  }),
+});
+
+export const collections = { trips, countryStories };

@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { countries } from '../../data/countries';
 
@@ -13,6 +13,12 @@ const country = countries[code];
 const trips = (await getCollection('trips'))
   .filter((t) => t.data.countryCode === code)
   .sort((a, b) => b.data.order - a.data.order);
+
+// Optional richer write-up — src/countries/<code>.md — replaces the short
+// intro when present (see src/content.config.ts for the schema).
+// The glob loader lowercases ids from filenames, so TUR.md -> id "tur".
+const story = await getEntry('countryStories', code.toLowerCase());
+const StoryContent = story ? (await render(story)).Content : null;
 ---
 <BaseLayout title={`Visiting ${country.name} — The Local Stop`} bodyClass="trip">
   <div class="wrap">
@@ -25,9 +31,15 @@ const trips = (await getCollection('trips'))
     <div class="washi"></div>
   </header>
 
-  <div class="wrap country-intro">
-    {country.intro.map((p) => <p>{p}</p>)}
-  </div>
+  {StoryContent ? (
+    <div class="wrap story">
+      <StoryContent />
+    </div>
+  ) : (
+    <div class="wrap country-intro">
+      {country.intro.map((p) => <p>{p}</p>)}
+    </div>
+  )}
 
   <div class="wrap">
     <div class="facts">
@@ -78,6 +90,25 @@ const trips = (await getCollection('trips'))
       )}
     </div>
   </section>
+
+  {story?.data.tagline && (
+    <section class="band-trips">
+      <div class="wrap country-stats">
+        <h2>{country.name} <span>{country.emoji}</span></h2>
+        <p class="country-stats__tagline">{story.data.tagline}</p>
+        {story.data.cityStats && story.data.cityStats.length > 0 && (
+          <div class="country-stats__grid">
+            {story.data.cityStats.map((c) => (
+              <div class="country-stats__city">
+                <h3>{c.name}</h3>
+                <p>{c.stats}</p>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </section>
+  )}
 
   <footer class="wrap">
     <span class="hand">à bientôt, {country.name} ✧</span>
