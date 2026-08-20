@@ -60,17 +60,19 @@ The castle began as a Visconti fortress in the 14th century and was later transf
 
 ![Castello Sforzesco](/Assets/Italy/07-couple-in-front-of-castle.jpg)
 
+![One of Castello Sforzesco's towers](/Assets/Italy/114-castle-tower-view.jpg)
+
 This is also where Leonardo da Vinci comes into the story. Leonardo worked for **Ludovico il Moro** and the Sforza court, and the castle still contains his **Sala delle Asse**, a remarkable decoration covering the walls and ceiling with an enormous illusion of branches and leaves.
 
 One thing to know before visiting: the Sala delle Asse has been undergoing restoration, so access can change. Check the current opening information before you go.
 
 For us, the highlight inside the castle was **Michelangelo's Pietà Rondanini**, his final sculpture. He was still working on it when he died in 1564, and unlike his perfectly finished sculptures, this one feels raw and unfinished. You can almost see the artist still trying to find the final form in the marble.
 
-![Michelangelo's Pietà Rondanini](/Assets/Italy/115-pieta-sculpture-in-museum.jpg)
+<img class="portrait" src="/Assets/Italy/115-pieta-sculpture-in-museum.jpg" alt="Michelangelo's Pietà Rondanini">
 
 The castle also houses collections of paintings, sculptures, armour, decorative arts and musical instruments, so you can easily spend a few hours here if you're interested in history.
 
-![Castello Sforzesco's armoury gallery](/Assets/Italy/111-castle-museum-armor-gallery-entrance.jpg)
+<img class="portrait" src="/Assets/Italy/111-castle-museum-armor-gallery-entrance.jpg" alt="Castello Sforzesco's armoury gallery">
 
 Afterwards, we walked through **Parco Sempione**, the huge park behind the castle, towards the Arco della Pace.
 
