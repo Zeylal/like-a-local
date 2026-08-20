@@ -218,29 +218,11 @@ Not because we suddenly forgot we were in Italy, but because the **Starbucks Res
 
 It's housed in the historic former Poste building in Piazza Cordusio, with huge interiors, elaborate architecture and a much more theatrical atmosphere than an ordinary Starbucks.
 
-<img class="wide" src="/Assets/Italy/122-starbucks-roastery-ceiling.jpg" alt="Inside the Starbucks Reserve Roastery">
+<img class="wide" src="/Assets/Italy/123-pastry-display-at-roastery.jpg" alt="Pastry display inside the Starbucks Reserve Roastery">
 
 So technically, this was also cultural research.
 
 At least that's what we're telling ourselves.
-
----
-
-# 🍝 Eating Milan
-
-Food became one of the best ways we experienced the city.
-
-Instead of trying to eat at a different famous restaurant every meal, we also went into supermarkets and local shops, bought fresh pasta and cooked at home.
-
-One night we made **cappellacci filled with finferli mushrooms**, simply with butter, sage and Parmigiano.
-
-Another pasta was filled with **burrata and 'nduja**, which we kept for another meal.
-
-We also discovered **risotto alla Milanese**, the dish that makes the most sense once you've understood Milan: simple ingredients, saffron, butter and Parmigiano, but somehow much more luxurious than it sounds.
-
-I liked this side of traveling more than checking restaurants off a list.
-
-Sometimes the best dinner is the one you're making in the apartment while trying to remember how long fresh pasta is supposed to cook.
 
 ---
 
