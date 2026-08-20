@@ -244,7 +244,7 @@ There are two kinds of boats: fast boats and regular boats. The regular ones mak
 
 The two most popular stops are Bellagio and Varenna. We skipped Bellagio because we didn't want to deal with the crowds. In Lenno, we mostly swam in the lake, and it was beautiful.
 
-![Lake Como, seen from the water](/Assets/Italy/27-lake-and-mountains-view.jpg)
+![Lake Como, seen from the water](/Assets/Italy/39-lake-and-mountain-view.jpg)
 
 We originally imagined Lake Como as a perfectly organized day of villas, famous towns and beautiful photographs.
 
