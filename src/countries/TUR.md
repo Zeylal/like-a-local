@@ -32,13 +32,13 @@ The monumental Istanbul of Hagia Sophia, the Blue Mosque, Topkapı Palace and th
 
 ### What I'm looking for
 
-**History** — Byzantine Istanbul, Ottoman Istanbul and everything that came between them.
+**History** - Byzantine Istanbul, Ottoman Istanbul and everything that came between them.
 
-**Food** — Markets, kebabs, sweets, tea, street food and whatever smells too good to walk past.
+**Food** - Markets, kebabs, sweets, tea, street food and whatever smells too good to walk past.
 
-**Neighborhood life** — Cafés, little shops, galleries, streets full of people and the places that don't necessarily make the postcard.
+**Neighborhood life** - Cafés, little shops, galleries, streets full of people and the places that don't necessarily make the postcard.
 
-**The Bosphorus** — Because apparently one city sitting between two continents wasn't dramatic enough.
+**The Bosphorus** - Because apparently one city sitting between two continents wasn't dramatic enough.
 
 ---
 
@@ -54,7 +54,7 @@ You can walk through Kaleiçi, with its Ottoman houses and narrow streets, and t
 
 And then there are the beaches.
 
-Konyaaltı, Lara, Kaputaş, Phaselis and the coast around Kaş all offer completely different ways of experiencing the Mediterranean. Kekova is the one I keep coming back to — you can swim or take a boat over submerged ancient ruins.
+Konyaaltı, Lara, Kaputaş, Phaselis and the coast around Kaş all offer completely different ways of experiencing the Mediterranean. Kekova is the one I keep coming back to - you can swim or take a boat over submerged ancient ruins.
 
 ### The Antalya I want
 
@@ -117,7 +117,7 @@ And then saying "I'm full" before ordering something else.
 
 I don't really want generic souvenirs.
 
-I like things that feel like they belong to the place: Turkish tea, spices, lokum, ceramics and tableware — particularly the colorful handmade pieces associated with Cappadocia.
+I like things that feel like they belong to the place: Turkish tea, spices, lokum, ceramics and tableware - particularly the colorful handmade pieces associated with Cappadocia.
 
 For me, that's the kind of thing that makes a trip continue after you've come home.
 

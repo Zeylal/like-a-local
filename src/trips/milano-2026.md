@@ -6,39 +6,39 @@ dates: "August 2026"
 stamp: "Aug 2026"
 emoji: "🇮🇹"
 badge: "A favourite ✧"
-image: "/Assets/Italy/09-couple-in-front-of-castle.jpg"
+image: "/Assets/Italy/102-pasta-and-wine-on-balcony.jpg"
 heroImage: "/Assets/Italy/12-woman-smiling-by-castle.jpg"
 order: 100
 countryCode: "ITA"
 coords: [45.75, 9.25]
 pins:
-  - { n: "Milano — home base", c: [45.4642, 9.1900], e: "🏠" }
+  - { n: "Milano - home base", c: [45.4642, 9.1900], e: "🏠" }
   - { n: "Lenno, Lake Como", c: [45.9764, 9.2075], e: "🏖️" }
-  - { n: "Tremezzo — Villa Carlotta", c: [45.9917, 9.2264], e: "🌺" }
+  - { n: "Tremezzo - Villa Carlotta", c: [45.9917, 9.2264], e: "🌺" }
   - { n: "Varenna", c: [46.0106, 9.2836], e: "🌅" }
 about:
-  - "Milan's history runs deeper than its fashion-capital reputation suggests — Castello Sforzesco began as a Visconti fortress before becoming the Renaissance seat of the Sforza family, and its museums hold one of Michelangelo's last, most unfinished, most human works."
+  - "Milan's history runs deeper than its fashion-capital reputation suggests - Castello Sforzesco began as a Visconti fortress before becoming the Renaissance seat of the Sforza family, and its museums hold one of Michelangelo's last, most unfinished, most human works."
   - "The city's contrasts are part of its charm: a chapel walled in human bones sits quietly beside one of Milan's oldest churches, while a few streets over, a giant marble hand flips off the Italian Stock Exchange."
 hotspots:
-  - { x: 30, y: 25, label: "Castello Sforzesco", info: "A former Visconti fortress turned Renaissance palace for the ruling Sforza family — now home to several of Milan's museums." }
-  - { x: 62, y: 40, label: "Pietà Rondanini", info: "Michelangelo's final, unfinished sculpture — he was still working on it when he died in 1564. Rougher and more intimate than his famous polished works." }
+  - { x: 30, y: 25, label: "Castello Sforzesco", info: "A former Visconti fortress turned Renaissance palace for the ruling Sforza family - now home to several of Milan's museums." }
+  - { x: 62, y: 40, label: "Pietà Rondanini", info: "Michelangelo's final, unfinished sculpture - he was still working on it when he died in 1564. Rougher and more intimate than his famous polished works." }
   - { x: 22, y: 68, label: "San Bernardino alle Ossa", info: "A small chapel whose walls are lined with human skulls and bones, dating back to when the neighbouring medieval cemetery ran out of room." }
-  - { x: 75, y: 72, label: "L.O.V.E. (\"Il Dito\")", info: "Maurizio Cattelan's giant marble hand giving the Italian Stock Exchange the finger — installed 2010, read as a jab at capitalism and institutional power." }
+  - { x: 75, y: 72, label: "L.O.V.E. (\"Il Dito\")", info: "Maurizio Cattelan's giant marble hand giving the Italian Stock Exchange the finger - installed 2010, read as a jab at capitalism and institutional power." }
 highlights:
-  - { image: "/Assets/Italy/09-couple-in-front-of-castle.jpg", caption: "Castello Sforzesco" }
-  - { image: "/Assets/Italy/15-giant-hand-sculpture-in-piazza.jpg", caption: "L.O.V.E. — Il Dito" }
-  - { image: "/Assets/Italy/20-girl-under-stone-arches.jpg", caption: "San Bernardino alle Ossa" }
+  - { image: "/Assets/Italy/93-woman-in-castle-courtyard.jpg", caption: "Castello Sforzesco" }
+  - { image: "/Assets/Italy/115-pieta-sculpture-in-museum.jpg", caption: "Pietà Rondanini" }
+  - { image: "/Assets/Italy/108-milan-duomo-exterior.jpg", caption: "The Duomo" }
+  - { image: "/Assets/Italy/107-galleria-archway-view.jpg", caption: "Galleria Vittorio Emanuele II" }
+  - { image: "/Assets/Italy/15-giant-hand-sculpture-in-piazza.jpg", caption: "L.O.V.E. - Il Dito" }
   - { image: "/Assets/Italy/27-lake-and-mountains-view.jpg", caption: "Lake Como" }
-  - { image: "/Assets/Italy/36-couple-selfie-lakeside-town.jpg", caption: "Lenno" }
-  - { image: "/Assets/Italy/48-woman-on-ferry-island-villa.jpg", caption: "Villa del Balbianello, from the water" }
-  - { image: "/Assets/Italy/51-girl-in-white-dress-on-pier.jpg", caption: "Varenna pier" }
-  - { image: "/Assets/Italy/65-woman-under-stone-arch-sunset.jpg", caption: "Varenna at sunset" }
+  - { image: "/Assets/Italy/99-woman-with-vespa-on-cobblestone-street.jpg", caption: "A lakeside village street" }
+  - { image: "/Assets/Italy/135-aperol-spritz-at-sunset.jpg", caption: "Aperitivo by the lake" }
   - { image: "/Assets/Italy/69-sunset-over-the-lake.jpg", caption: "Sunset over the lake" }
 booking:
   title: "Booking the trip"
   intro:
     - "We decided to spend a few days in Milan and Lake Como in August, which turned out to be both a blessing and a slight logistical nightmare."
-    - "If you can choose, the actual best time to visit is late spring (May–June) or September — warm enough to swim in Como, cool enough to actually enjoy walking around Milan. August is Italy's big holiday season, so a lot of smaller local businesses, restaurants and shops close for part of the month, though Milan itself does feel quieter and accommodation can be cheaper if you're okay checking opening days in advance."
+    - "If you can choose, the actual best time to visit is late spring (May–June) or September - warm enough to swim in Como, cool enough to actually enjoy walking around Milan. August is Italy's big holiday season, so a lot of smaller local businesses, restaurants and shops close for part of the month, though Milan itself does feel quieter and accommodation can be cheaper if you're okay checking opening days in advance."
   items:
     - heading: "Where to stay"
       body:
@@ -66,9 +66,11 @@ One thing to know before visiting: the Sala delle Asse has been undergoing resto
 
 For us, the highlight inside the castle was **Michelangelo's Pietà Rondanini**, his final sculpture. He was still working on it when he died in 1564, and unlike his perfectly finished sculptures, this one feels raw and unfinished. You can almost see the artist still trying to find the final form in the marble.
 
+![Michelangelo's Pietà Rondanini](/Assets/Italy/115-pieta-sculpture-in-museum.jpg)
+
 The castle also houses collections of paintings, sculptures, armour, decorative arts and musical instruments, so you can easily spend a few hours here if you're interested in history.
 
-![Castello Sforzesco](/Assets/Italy/11-woman-looking-at-castle.jpg)
+![Castello Sforzesco's armoury gallery](/Assets/Italy/111-castle-museum-armor-gallery-entrance.jpg)
 
 Afterwards, we walked through **Parco Sempione**, the huge park behind the castle, towards the Arco della Pace.
 
@@ -134,9 +136,13 @@ The Duomo.
 
 It's enormous, dramatic and completely worth seeing in person. The Gothic cathedral took centuries to build, and its hundreds of spires and statues make it one of those places that photographs don't really prepare you for.
 
+![The Duomo di Milano](/Assets/Italy/108-milan-duomo-exterior.jpg)
+
 Right beside it is the **Galleria Vittorio Emanuele II**, one of the world's oldest shopping arcades.
 
 The glass roof, enormous central dome and mosaic floor make it feel less like a shopping centre and more like a piece of architecture that happens to contain Prada, cafés and restaurants.
+
+![Inside the Galleria Vittorio Emanuele II](/Assets/Italy/104-galleria-glass-dome-closeup.jpg)
 
 We walked through the Galleria, explored the area around the Duomo and let ourselves be tourists for a little while.
 
@@ -150,11 +156,7 @@ One of our favorite discoveries was **San Bernardino alle Ossa**, a small chapel
 
 The ossuary dates back to the medieval period, when the nearby cemetery became overcrowded. Over the centuries, the bones became part of the chapel's strange but elaborate decoration.
 
-![San Bernardino alle Ossa](/Assets/Italy/17-girl-under-stone-arches.jpg)
-
 Just nearby is **Santo Stefano Maggiore**, a church with more than 1,500 years of history. Caravaggio was baptized here, and the Duke of Milan, Galeazzo Maria Sforza, was assassinated inside the church in 1476.
-
-![Santo Stefano Maggiore](/Assets/Italy/21-girl-under-stone-arches.jpg)
 
 It's one of those places that perfectly represents Milan for us:
 
@@ -174,7 +176,7 @@ The sculpture was created as a deliberately provocative statement about the fina
 
 It was also one of those moments where Milan's old and new sides collided perfectly: centuries-old architecture, one of Europe's financial centres, and an enormous marble middle finger sitting in the middle of it all.
 
-![L.O.V.E. — Il Dito, Piazza degli Affari](/Assets/Italy/15-giant-hand-sculpture-in-piazza.jpg)
+![L.O.V.E. - Il Dito, Piazza degli Affari](/Assets/Italy/15-giant-hand-sculpture-in-piazza.jpg)
 
 ---
 
@@ -195,6 +197,8 @@ It was one of those meals where we stopped talking about sightseeing for a while
 For pizza, we went to **Denis Milano – Porta Venezia**, and this one was a very easy recommendation.
 
 The pizza was really good, with a light, airy base and fresh toppings. Porta Venezia is also a great area to eat in because there are plenty of restaurants and cafés without having to go all the way into the most touristy parts of the city.
+
+![Pizza night in Porta Venezia](/Assets/Italy/110-pizza-dinner-at-restaurant.jpg)
 
 If you're staying around Porta Venezia like we did, this is a convenient place to keep in mind when you want a proper Italian pizza without making dinner into another sightseeing mission.
 
@@ -217,6 +221,8 @@ We also went to Starbucks.
 Not because we suddenly forgot we were in Italy, but because the **Starbucks Reserve Roastery** in Milan is actually worth seeing as a space.
 
 It's housed in the historic former Poste building in Piazza Cordusio, with huge interiors, elaborate architecture and a much more theatrical atmosphere than an ordinary Starbucks.
+
+![Inside the Starbucks Reserve Roastery](/Assets/Italy/122-starbucks-roastery-ceiling.jpg)
 
 So technically, this was also cultural research.
 
@@ -308,7 +314,13 @@ We arrived in the evening, which turned out to be perfect.
 
 Lenno had been beautiful but tiny. Varenna had more of what we'd been looking for: **narrow streets, stairs, little shops, old stone buildings and a proper village atmosphere**.
 
+![A scooter parked on a Varenna side street](/Assets/Italy/99-woman-with-vespa-on-cobblestone-street.jpg)
+
 By the time we arrived, many of the day-trippers were leaving.
+
+We sat down for an Aperol Spritz right on the water as the sun went down - mountains on one side, the lake turning gold on the other.
+
+![Aperitivo by the lake at sunset](/Assets/Italy/135-aperol-spritz-at-sunset.jpg)
 
 We walked around without a plan, followed the streets toward the lake, and watched the light change over the water.
 

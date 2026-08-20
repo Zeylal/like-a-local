@@ -28,7 +28,7 @@ const visited = Object.fromEntries(
   })
 );
 ---
-<BaseLayout title="The Local Stop — travel notes by Zeynep" bodyClass="home">
+<BaseLayout title="The Local Stop - travel notes by Zeynep" bodyClass="home">
   <header class="wrap">
     <div class="deco-stamp deco-stamp--1" aria-hidden="true">✈<span>PAR AVION</span></div>
     <div class="deco-stamp deco-stamp--2" aria-hidden="true">🌍<span>LOCAL STOP</span></div>
@@ -124,7 +124,7 @@ const visited = Object.fromEntries(
       .polygonAltitude(0.01)
       .polygonCapColor((d) => {
         const code = d.properties.ADM0_A3;
-        return visited[code] ? '#22C55E' : 'rgba(255,255,255,0.25)';
+        return visited[code] ? '#4C8C3C' : 'rgba(255,255,255,0.25)';
       })
       .polygonSideColor(() => 'rgba(46,42,38,0.15)')
       .polygonStrokeColor(() => '#FAF4EA')

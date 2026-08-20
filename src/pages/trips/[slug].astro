@@ -28,7 +28,7 @@ const navItems = [
   ...(data.tips && data.tips.length > 0 ? [{ id: 'tips', label: 'Budget & tips' }] : []),
 ];
 ---
-<BaseLayout title={`${data.title} — like a local`} bodyClass="trip">
+<BaseLayout title={`${data.title} - like a local`} bodyClass="trip">
   <Fragment slot="head">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   </Fragment>
@@ -97,7 +97,7 @@ const navItems = [
   {data.dishes && data.dishes.length > 0 && (
     <section id="food">
       <div class="wrap">
-        <h2>Local stops — where we ate <span>🍝</span></h2>
+        <h2>Local stops - where we ate <span>🍝</span></h2>
         <div class="food">
           {data.dishes.map((dish) => (
             <div class="dish">

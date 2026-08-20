@@ -21,7 +21,7 @@ const trips = (await getCollection('trips'))
 const story = await getEntry('countryStories', code.toLowerCase());
 const StoryContent = story ? (await render(story)).Content : null;
 ---
-<BaseLayout title={`Visiting ${country.name} — The Local Stop`} bodyClass="trip">
+<BaseLayout title={`Visiting ${country.name} - The Local Stop`} bodyClass="trip">
   <div class="wrap">
     <a class="back" href="/">← back to the map</a>
   </div>
@@ -93,7 +93,7 @@ const StoryContent = story ? (await render(story)).Content : null;
           ))}
         </div>
       ) : (
-        <p class="no-entries">Nothing written up here yet — {country.name} is on the list. Check back soon ✧</p>
+        <p class="no-entries">Nothing written up here yet - {country.name} is on the list. Check back soon ✧</p>
       )}
     </div>
   </section>
