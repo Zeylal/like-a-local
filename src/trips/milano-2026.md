@@ -188,6 +188,16 @@ The pasta was fresh, rich and comforting, exactly the kind of dish you want afte
 
 It was one of those meals where we stopped talking about sightseeing for a while and just concentrated on the plate.
 
+### 🍝 Miscusi
+
+We stopped for lunch at **Miscusi**, where we had fresh pasta.
+
+It's not a traditional old-school Milanese trattoria. It's more casual and modern, but after spending the morning walking around in the August heat, fresh pasta was exactly what we wanted.
+
+### 🍝 Dal Bolognese
+
+Another stop on our list was **Dal Bolognese**, one more place we tried while exploring Milan's food scene.
+
 ### 🍕 Pizza around Porta Venezia
 
 For pizza, we went to **Denis Milano – Porta Venezia**, and this one was a very easy recommendation.
@@ -250,37 +260,9 @@ And that was exactly what we needed.
 
 One of the things I really wanted to see was **Villa del Balbianello**, famous for its appearance as Naboo in *Star Wars: Episode II*.
 
-There was one small problem.
-
-**We went on Monday.**
-
-The villa was closed.
-
-Naturally.
-
-We couldn't enter the gardens, but we saw the peninsula from the boat, which was actually beautiful in its own way. Seeing the villa from the lake gave us the cinematic view we'd been looking for.
-
-So no, we didn't recreate the Star Wars scene.
-
-We did, however, spend the day taking photographs from a boat and pretending the closed villa was part of the plan.
+We didn't get to go inside, so if you want to visit properly, check the opening hours and days in advance.
 
 ![Villa del Balbianello, seen from the ferry](/Assets/Italy/48-woman-on-ferry-island-villa.jpg)
-
----
-
-# 🌿 Tremezzo
-
-We continued along the lake toward **Tremezzo**, where we saw the area around **Villa Carlotta**.
-
-The villa and its gardens are much more than just another pretty building. The gardens are filled with plants, sculptures and terraces overlooking the lake.
-
-What I loved most wasn't even a specific attraction. It was the way the villas sit within the landscape.
-
-The lake isn't just something in front of the buildings.
-
-**It is part of the architecture.**
-
-Everywhere you look, the houses, gardens, mountains and water seem to have been designed around one another.
 
 ---
 
@@ -333,45 +315,3 @@ Walk around.
 Change the plan.**
 
 It felt much closer to how I actually want to travel.
-
----
-
-## 👀 What I noticed
-
-Milan was fascinating because of the contrast between **history and everyday life**.
-
-A Renaissance castle can sit a few streets away from a modern design shop.
-
-A church can contain 1,500 years of history and have a café across the road.
-
-A giant marble middle finger can stand in front of the Italian Stock Exchange.
-
-And people just continue with their day.
-
-Lake Como felt different.
-
-There, life seemed to revolve much more around the water. Boats are part of everyday transport, villages stretch along the shoreline, and the mountains make everything feel smaller and slower.
-
----
-
-## 🍴 What stayed with me
-
-More than any single restaurant, it was the food itself.
-
-Fresh pasta.
-
-Saffron.
-
-Parmigiano.
-
-Mushrooms.
-
-Burrata.
-
-'Nduja.
-
-Gelato by the lake.
-
-And the realization that sometimes **the most local experience isn't finding the "best restaurant" online.**
-
-Sometimes it's going into a supermarket, looking at ingredients you don't recognize, buying them anyway, and figuring dinner out when you get home.
