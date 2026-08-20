@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CityIntro from '../../components/CityIntro.astro';
 import HighlightsCarousel from '../../components/HighlightsCarousel.astro';
+import BookingAccordion from '../../components/BookingAccordion.astro';
 
 export async function getStaticPaths() {
   const trips = await getCollection('trips');
@@ -25,6 +26,9 @@ const heroImage = data.heroImage ?? data.image;
   </div>
 
   <header class="wrap">
+    {data.collage && data.collage.map((item, i) => (
+      <span class={`collage-item collage-item--${i % 6}`} aria-hidden="true">{item}</span>
+    ))}
     <span class="when">{data.dates}</span>
     <h1>{data.title} {data.emoji}</h1>
     <p class="sub">{data.subtitle}</p>
@@ -34,6 +38,10 @@ const heroImage = data.heroImage ?? data.image;
   <CityIntro about={data.about} heroImage={heroImage} hotspots={[]} />
 
   <HighlightsCarousel highlights={data.highlights ?? []} />
+
+  {data.booking && (
+    <BookingAccordion title={data.booking.title} intro={data.booking.intro} items={data.booking.items} />
+  )}
 
   {data.facts && data.facts.length > 0 && (
     <div class="wrap">

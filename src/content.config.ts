@@ -21,6 +21,8 @@ const trips = defineCollection({
     image: z.string(),
     // CityIntro hero photo; falls back to `image` if omitted
     heroImage: z.string().optional(),
+    // Small emoji "collage" scattered around the header title
+    collage: z.array(z.string()).optional(),
     // higher = shown first on the home page
     order: z.number(),
     // ADM0_A3 code used to light this country up on the home globe
@@ -58,6 +60,17 @@ const trips = defineCollection({
     // greatest hits, one photo + short caption per highlight.
     highlights: z
       .array(z.object({ image: z.string(), caption: z.string() }))
+      .optional(),
+    // Practical/logistics block rendered as a distinctly-styled accordion,
+    // separate from the flowing story — booking, where we stayed, etc.
+    booking: z
+      .object({
+        title: z.string().default('Booking the trip'),
+        intro: z.array(z.string()).optional(),
+        items: z.array(
+          z.object({ heading: z.string(), body: z.array(z.string()) })
+        ),
+      })
       .optional(),
     // CityIntro intro blurb — history / what the city is known for, one string per paragraph
     about: z.array(z.string()),

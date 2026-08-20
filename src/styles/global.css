@@ -36,6 +36,17 @@ header .when{font-family:'Caveat',cursive;font-size:1.5rem;color:var(--olive);tr
 .deco-stamp--2{top:30px;right:6px;transform:rotate(9deg)}
 @media(max-width:700px){.deco-stamp{display:none}}
 
+/* trip page: emoji "collage" scattered around the title */
+.collage-item{position:absolute;font-size:2.1rem;filter:drop-shadow(0 4px 8px rgba(46,42,38,.2));
+  pointer-events:none;line-height:1}
+.collage-item--0{top:2%;left:2%;transform:rotate(-14deg)}
+.collage-item--1{top:2%;right:2%;transform:rotate(12deg)}
+.collage-item--2{top:48%;left:0;transform:rotate(-8deg)}
+.collage-item--3{top:48%;right:0;transform:rotate(10deg)}
+.collage-item--4{bottom:4%;left:12%;transform:rotate(9deg)}
+.collage-item--5{bottom:4%;right:12%;transform:rotate(-11deg)}
+@media(max-width:700px){.collage-item{display:none}}
+
 section{}
 .home section{padding:36px 0}
 .trip section{padding:26px 0 6px}
@@ -164,6 +175,22 @@ h2 span{font-size:1.4rem}
 .tips{background:#fff;border-radius:12px;padding:20px 22px;box-shadow:0 8px 20px rgba(46,42,38,.1)}
 .tips li{margin:0 0 10px 18px;line-height:1.55;font-size:.95rem}
 .tips b{color:var(--terra)}
+
+/* trip page: booking/logistics accordion — visually distinct from the story */
+.booking-block{background:var(--sea);padding:34px 0}
+.booking-block h2{color:#fff}
+.booking-block > .wrap > p{color:#fff;line-height:1.65;font-size:1rem;margin-bottom:12px;opacity:.92}
+.accordion{margin-top:16px;display:flex;flex-direction:column;gap:10px}
+.accordion__item{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,.15)}
+.accordion__item summary{list-style:none;cursor:pointer;padding:14px 18px;font-family:'Caveat',cursive;
+  font-size:1.3rem;color:var(--espresso);display:flex;justify-content:space-between;align-items:center;gap:10px}
+.accordion__item summary::-webkit-details-marker{display:none}
+.accordion__item summary::after{content:'+';font-family:'Fraunces',serif;font-size:1.3rem;color:var(--sea);
+  transition:transform .2s ease;flex:0 0 auto}
+.accordion__item[open] summary::after{transform:rotate(45deg)}
+.accordion__panel{padding:0 18px 16px}
+.accordion__panel p{font-size:.92rem;line-height:1.6;color:var(--espresso);margin-bottom:10px}
+.accordion__panel p:last-child{margin-bottom:0}
 
 /* trip page: highlights carousel */
 .highlights{padding:8px 0 30px}
