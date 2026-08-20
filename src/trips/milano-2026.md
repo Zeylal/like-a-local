@@ -24,6 +24,16 @@ hotspots:
   - { x: 62, y: 40, label: "Pietà Rondanini", info: "Michelangelo's final, unfinished sculpture — he was still working on it when he died in 1564. Rougher and more intimate than his famous polished works." }
   - { x: 22, y: 68, label: "San Bernardino alle Ossa", info: "A small chapel whose walls are lined with human skulls and bones, dating back to when the neighbouring medieval cemetery ran out of room." }
   - { x: 75, y: 72, label: "L.O.V.E. (\"Il Dito\")", info: "Maurizio Cattelan's giant marble hand giving the Italian Stock Exchange the finger — installed 2010, read as a jab at capitalism and institutional power." }
+highlights:
+  - { image: "/Assets/Italy/09-couple-in-front-of-castle.jpg", caption: "Castello Sforzesco" }
+  - { image: "/Assets/Italy/15-giant-hand-sculpture-in-piazza.jpg", caption: "L.O.V.E. — Il Dito" }
+  - { image: "/Assets/Italy/20-girl-under-stone-arches.jpg", caption: "San Bernardino alle Ossa" }
+  - { image: "/Assets/Italy/27-lake-and-mountains-view.jpg", caption: "Lake Como" }
+  - { image: "/Assets/Italy/36-couple-selfie-lakeside-town.jpg", caption: "Lenno" }
+  - { image: "/Assets/Italy/48-woman-on-ferry-island-villa.jpg", caption: "Villa del Balbianello, from the water" }
+  - { image: "/Assets/Italy/51-girl-in-white-dress-on-pier.jpg", caption: "Varenna pier" }
+  - { image: "/Assets/Italy/65-woman-under-stone-arch-sunset.jpg", caption: "Varenna at sunset" }
+  - { image: "/Assets/Italy/69-sunset-over-the-lake.jpg", caption: "Sunset over the lake" }
 ---
 
 ## Milan felt older than we expected

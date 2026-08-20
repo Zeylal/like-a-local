@@ -54,6 +54,11 @@ const trips = defineCollection({
       )
       .optional(),
     tips: z.array(z.string()).optional(),
+    // Photo carousel shown right after "About the city" — the trip's
+    // greatest hits, one photo + short caption per highlight.
+    highlights: z
+      .array(z.object({ image: z.string(), caption: z.string() }))
+      .optional(),
     // CityIntro intro blurb — history / what the city is known for, one string per paragraph
     about: z.array(z.string()),
     // hover/tap hotspots over the CityIntro hero photo

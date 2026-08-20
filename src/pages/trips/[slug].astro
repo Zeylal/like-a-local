@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CityIntro from '../../components/CityIntro.astro';
+import HighlightsCarousel from '../../components/HighlightsCarousel.astro';
 
 export async function getStaticPaths() {
   const trips = await getCollection('trips');
@@ -31,6 +32,8 @@ const heroImage = data.heroImage ?? data.image;
   </header>
 
   <CityIntro about={data.about} heroImage={heroImage} hotspots={[]} />
+
+  <HighlightsCarousel highlights={data.highlights ?? []} />
 
   {data.facts && data.facts.length > 0 && (
     <div class="wrap">

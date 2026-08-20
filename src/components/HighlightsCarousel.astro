@@ -1,0 +1,46 @@
+---
+interface Highlight {
+  image: string;
+  caption: string;
+}
+
+interface Props {
+  highlights: Highlight[];
+}
+
+const { highlights } = Astro.props;
+const id = `carousel-${Math.random().toString(36).slice(2, 8)}`;
+---
+{highlights.length > 0 && (
+  <section class="highlights">
+    <div class="wrap">
+      <h2>The highlights <span>✨</span></h2>
+    </div>
+    <div class="carousel-wrap">
+      <button class="carousel-nav carousel-nav--prev" data-carousel={id} data-dir="-1" aria-label="Previous photo">‹</button>
+      <div class="carousel" id={id}>
+        {highlights.map((h) => (
+          <figure class="carousel__slide">
+            <img src={h.image} alt={h.caption} loading="lazy">
+            <figcaption>{h.caption}</figcaption>
+          </figure>
+        ))}
+      </div>
+      <button class="carousel-nav carousel-nav--next" data-carousel={id} data-dir="1" aria-label="Next photo">›</button>
+    </div>
+  </section>
+)}
+
+<script>
+  document.querySelectorAll('.carousel-nav').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const id = btn.getAttribute('data-carousel');
+      const dir = Number(btn.getAttribute('data-dir'));
+      const el = document.getElementById(id);
+      if (!el) return;
+      const slide = el.querySelector('.carousel__slide');
+      const step = slide ? slide.getBoundingClientRect().width + 16 : 300;
+      el.scrollBy({ left: dir * step, behavior: 'smooth' });
+    });
+  });
+</script>
